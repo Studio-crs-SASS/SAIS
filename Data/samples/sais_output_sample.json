@@ -1,0 +1,1032 @@
+{
+    "status": "success",
+    "system": "SAIS",
+    "version": "1.0",
+    "project": "SEEN",
+    "target": {
+        "url": "https://example.com",
+        "domain": "example.com",
+        "checked_at": "2026-07-21T00:00:00+09:00"
+    },
+    "source": {
+        "system": "SADS",
+        "target_system": "SAIS",
+        "version": "1.0"
+    },
+    "proposal": {
+        "title": "行動導線と情報構造を組み合わせた導入提案",
+        "summary": "総合スコアは87.3点です。 表示速度を中心に、行動導線と情報構造を組み合わせた導入提案として整理します。",
+        "diagnosis_connection": "SADS診断で確認された改善優先項目をもとに、導入提案を整理します。",
+        "priority_reason": "表示速度の優先度が高いため、最初に確認する改善対象として扱います。",
+        "recommended_actions": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "flow_06_display_speed",
+                "category": "flow",
+                "title": "表示速度の改善",
+                "action": "画像容量、読み込み順序、サーバー環境を確認し、表示速度改善を行います。",
+                "impact": "high",
+                "difficulty": "high",
+                "recommended_service_scope": "導線改善"
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "depth_01_heading",
+                "category": "depth",
+                "title": "見出し構造の改善",
+                "action": "ページ内の見出し階層を確認し、内容のまとまりが伝わる構造へ整理します。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": "情報構造改善"
+            }
+        ],
+        "expected_effects": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "flow_06_display_speed",
+                "category": "flow",
+                "title": "表示速度の改善",
+                "expected_effect": "表示速度改善により、訪問者の離脱を抑えやすくなります。",
+                "impact": "high",
+                "difficulty": "high"
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "depth_01_heading",
+                "category": "depth",
+                "title": "見出し構造の改善",
+                "expected_effect": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            }
+        ],
+        "scope_summary": "今回の提案では、導線改善、情報構造改善を中心範囲とします。",
+        "confidence_note": "診断結果は安定しており、提案作成に利用しやすい状態です。",
+        "additional_check_note": "提案前に確認すべき項目があります。",
+        "suggested_next_step": "改善対象と導入範囲を確認し、見積内容の確認へ進みます。",
+        "client_message": "総合スコアは87.3点です。 特に表示速度を優先し、導線改善、情報構造改善として進める提案です。 提案前に確認すべき項目があります。",
+        "summary_data": {
+            "action_summary": {
+                "total": 2,
+                "high_impact_count": 1,
+                "high_difficulty_count": 1,
+                "primary_action_title": "表示速度の改善"
+            },
+            "effect_summary": {
+                "total": 2,
+                "primary_indicator_id": "flow_06_display_speed",
+                "primary_effect": "表示速度改善により、訪問者の離脱を抑えやすくなります。",
+                "high_impact_count": 1
+            },
+            "combined_effect_message": "表示速度改善により、訪問者の離脱を抑えやすくなります。 情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。"
+        }
+    },
+    "estimate": {
+        "estimate_summary": "今回の見積項目は、SADS診断で確認された優先改善項目をもとに整理しています。 見積項目は2件です。",
+        "estimate_items": [
+            {
+                "item_id": "estimate_item_001",
+                "source_indicator_id": "flow_06_display_speed",
+                "category": "flow",
+                "title": "表示速度の改善",
+                "work_item": "画像容量、読み込み順序、サーバー環境を確認し、表示速度改善を行います。",
+                "scope": "導線改善",
+                "priority_rank": 1,
+                "impact": "high",
+                "difficulty": "high",
+                "expected_effect": "表示速度改善により、訪問者の離脱を抑えやすくなります。",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "サーバー環境の確認が必要です。"
+                ],
+                "pricing_status": {
+                    "key": "needs_manual_pricing",
+                    "label": "人間による金額確認が必要",
+                    "needs_human_confirmation": true
+                }
+            },
+            {
+                "item_id": "estimate_item_002",
+                "source_indicator_id": "depth_01_heading",
+                "category": "depth",
+                "title": "見出し構造の改善",
+                "work_item": "ページ内の見出し階層を確認し、内容のまとまりが伝わる構造へ整理します。",
+                "scope": "情報構造改善",
+                "priority_rank": 2,
+                "impact": "medium",
+                "difficulty": "medium",
+                "expected_effect": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "サーバー環境の確認が必要です。"
+                ],
+                "pricing_status": {
+                    "key": "scope_needs_confirmation",
+                    "label": "範囲確認後に金額設定",
+                    "needs_human_confirmation": true
+                }
+            }
+        ],
+        "scope": [
+            {
+                "scope_id": "estimate_scope_001",
+                "scope_name": "導線改善",
+                "pricing_status": "scope_needs_confirmation"
+            },
+            {
+                "scope_id": "estimate_scope_002",
+                "scope_name": "情報構造改善",
+                "pricing_status": "scope_needs_confirmation"
+            }
+        ],
+        "priority": [
+            {
+                "rank": 1,
+                "indicator_id": "flow_06_display_speed",
+                "indicator_name": "表示速度",
+                "category": "flow"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "depth_01_heading",
+                "indicator_name": "見出し構造",
+                "category": "depth"
+            }
+        ],
+        "difficulty_summary": "構造改善または追加確認が必要な項目を含むため、見積前に範囲確認が必要です。",
+        "impact_summary": "成果への影響が大きい改善項目を含むため、優先的な対応を推奨します。",
+        "required_check": [
+            "CTA数",
+            "フォーム有無",
+            "予約導線有無",
+            "購入導線有無",
+            "画像容量",
+            "サーバー環境",
+            "表示速度改善範囲",
+            "対象ページ数",
+            "ページ構成",
+            "見出し数",
+            "既存テンプレート",
+            "修正範囲",
+            "サーバー環境の確認が必要です。"
+        ],
+        "pricing_note": "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。",
+        "summary_data": {
+            "total_items": 2,
+            "required_check_count": 13,
+            "needs_confirmation_count": 2,
+            "main_difficulty": "high",
+            "main_impact": "high"
+        }
+    },
+    "introduction_plan": {
+        "plan_summary": "SADS診断結果をもとに、優先改善項目から段階的に導入計画を整理します。 提案テーマは「行動導線と情報構造を組み合わせた導入提案」です。導入フェーズは2件、タスクは4件です。",
+        "phases": [
+            {
+                "phase_id": "phase_001",
+                "phase_name": "導線改善",
+                "scope": "導線改善",
+                "tasks": [
+                    "表示速度の確認",
+                    "表示速度の改善の実施範囲確認"
+                ],
+                "priority": "high",
+                "expected_effect": "訪問者が次の行動へ進みやすくなります。",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "サーバー環境の確認が必要です。"
+                ],
+                "sass_connection": "SASS導線改善"
+            },
+            {
+                "phase_id": "phase_002",
+                "phase_name": "情報構造改善",
+                "scope": "情報構造改善",
+                "tasks": [
+                    "見出し構造の確認",
+                    "見出し構造の改善の実施範囲確認"
+                ],
+                "priority": "medium",
+                "expected_effect": "情報構造が整理され、サイト全体の理解がしやすくなります。",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "サーバー環境の確認が必要です。"
+                ],
+                "sass_connection": "SASS構造改善"
+            }
+        ],
+        "tasks": [
+            {
+                "task_id": "task_001",
+                "phase_id": "phase_001",
+                "phase_name": "導線改善",
+                "task_name": "表示速度の確認",
+                "priority": "high",
+                "sass_connection": "SASS導線改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "サーバー環境の確認が必要です。"
+                ],
+                "order": 1
+            },
+            {
+                "task_id": "task_002",
+                "phase_id": "phase_001",
+                "phase_name": "導線改善",
+                "task_name": "表示速度の改善の実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導線改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "サーバー環境の確認が必要です。"
+                ],
+                "order": 2
+            },
+            {
+                "task_id": "task_003",
+                "phase_id": "phase_002",
+                "phase_name": "情報構造改善",
+                "task_name": "見出し構造の確認",
+                "priority": "medium",
+                "sass_connection": "SASS構造改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "サーバー環境の確認が必要です。"
+                ],
+                "order": 1
+            },
+            {
+                "task_id": "task_004",
+                "phase_id": "phase_002",
+                "phase_name": "情報構造改善",
+                "task_name": "見出し構造の改善の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS構造改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "サーバー環境の確認が必要です。"
+                ],
+                "order": 2
+            }
+        ],
+        "priority": [
+            {
+                "rank": 1,
+                "indicator_id": "flow_06_display_speed",
+                "indicator_name": "表示速度",
+                "category": "flow"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "depth_01_heading",
+                "indicator_name": "見出し構造",
+                "category": "depth"
+            }
+        ],
+        "expected_effects": [
+            "訪問者が次の行動へ進みやすくなります。",
+            "情報構造が整理され、サイト全体の理解がしやすくなります。",
+            "表示速度改善により、訪問者の離脱を抑えやすくなります。",
+            "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。"
+        ],
+        "required_check": [
+            "CTA数",
+            "フォーム有無",
+            "予約導線有無",
+            "購入導線有無",
+            "画像容量",
+            "サーバー環境",
+            "表示速度改善範囲",
+            "サーバー環境の確認が必要です。",
+            "対象ページ数",
+            "ページ構成",
+            "見出し数",
+            "既存テンプレート",
+            "修正範囲"
+        ],
+        "sass_connection": [
+            "SASS導線改善",
+            "SASS構造改善"
+        ],
+        "summary_data": {
+            "phase_count": 2,
+            "task_count": 4,
+            "high_priority_task_count": 2,
+            "sass_connected_task_count": 4,
+            "first_task": "表示速度の確認"
+        }
+    },
+    "sass_scope_candidate": {
+        "summary": "SADS診断結果とSAIS提案内容をもとに、SASS導入候補範囲を整理します。",
+        "candidates": [
+            {
+                "scope_name": "導線改善",
+                "source_recommendation": "flow_06_display_speed",
+                "priority": 1,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "flow_improvement",
+                "note": "導線改善をSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "情報構造改善",
+                "source_recommendation": "depth_01_heading",
+                "priority": 2,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "structure_improvement",
+                "note": "情報構造改善をSASS導入候補範囲として整理します。"
+            }
+        ],
+        "recommended_modules": [
+            "Flow Module",
+            "CTA Module",
+            "Performance Support Module",
+            "Structure Module",
+            "Page Architecture Module"
+        ],
+        "operation_candidates": [
+            "CTA導線改善運用",
+            "表示速度確認運用",
+            "ページ構造の定期確認",
+            "見出し構成の運用改善"
+        ],
+        "implementation_notes": [
+            "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+            "導線改善の対象範囲を確認します。",
+            "情報構造改善の対象範囲を確認します。",
+            "表示速度の改善の見積条件を確認します。",
+            "見出し構造の改善の見積条件を確認します。"
+        ]
+    },
+    "additional_check_items": [
+        {
+            "type": "server",
+            "message": "サーバー環境の確認が必要です。",
+            "target": "server",
+            "impact": "estimate_needs_confirmation"
+        }
+    ],
+    "proposal_data": {
+        "cover": {
+            "title": "行動導線と情報構造を組み合わせた導入提案",
+            "target_name": "example.com",
+            "target_url": "https://example.com",
+            "system": "SAIS",
+            "project": "SEEN",
+            "document_type": "Introduction Proposal"
+        },
+        "executive_summary": "総合スコアは87.3点です。 特に表示速度を優先し、導線改善、情報構造改善として進める提案です。 提案前に確認すべき項目があります。",
+        "diagnosis_summary": {
+            "diagnosis_connection": "SADS診断で確認された改善優先項目をもとに、導入提案を整理します。",
+            "priority_reason": "表示速度の優先度が高いため、最初に確認する改善対象として扱います。",
+            "confidence_note": "診断結果は安定しており、提案作成に利用しやすい状態です。"
+        },
+        "proposal_overview": {
+            "title": "行動導線と情報構造を組み合わせた導入提案",
+            "summary": "総合スコアは87.3点です。 表示速度を中心に、行動導線と情報構造を組み合わせた導入提案として整理します。",
+            "scope_summary": "今回の提案では、導線改善、情報構造改善を中心範囲とします。",
+            "additional_check_note": "提案前に確認すべき項目があります。"
+        },
+        "priority_improvement_items": [
+            {
+                "rank": 1,
+                "indicator_id": "flow_06_display_speed",
+                "title": "表示速度の改善",
+                "category": "flow",
+                "action": "画像容量、読み込み順序、サーバー環境を確認し、表示速度改善を行います。",
+                "expected_effect": "表示速度改善により、訪問者の離脱を抑えやすくなります。",
+                "impact": "high",
+                "difficulty": "high"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "depth_01_heading",
+                "title": "見出し構造の改善",
+                "category": "depth",
+                "action": "ページ内の見出し階層を確認し、内容のまとまりが伝わる構造へ整理します。",
+                "expected_effect": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            }
+        ],
+        "recommended_actions": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "flow_06_display_speed",
+                "category": "flow",
+                "title": "表示速度の改善",
+                "action": "画像容量、読み込み順序、サーバー環境を確認し、表示速度改善を行います。",
+                "impact": "high",
+                "difficulty": "high",
+                "recommended_service_scope": "導線改善"
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "depth_01_heading",
+                "category": "depth",
+                "title": "見出し構造の改善",
+                "action": "ページ内の見出し階層を確認し、内容のまとまりが伝わる構造へ整理します。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": "情報構造改善"
+            }
+        ],
+        "estimate_section": {
+            "summary": "今回の見積項目は、SADS診断で確認された優先改善項目をもとに整理しています。 見積項目は2件です。",
+            "items": [
+                {
+                    "item_id": "estimate_item_001",
+                    "source_indicator_id": "flow_06_display_speed",
+                    "category": "flow",
+                    "title": "表示速度の改善",
+                    "work_item": "画像容量、読み込み順序、サーバー環境を確認し、表示速度改善を行います。",
+                    "scope": "導線改善",
+                    "priority_rank": 1,
+                    "impact": "high",
+                    "difficulty": "high",
+                    "expected_effect": "表示速度改善により、訪問者の離脱を抑えやすくなります。",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "サーバー環境の確認が必要です。"
+                    ],
+                    "pricing_status": {
+                        "key": "needs_manual_pricing",
+                        "label": "人間による金額確認が必要",
+                        "needs_human_confirmation": true
+                    }
+                },
+                {
+                    "item_id": "estimate_item_002",
+                    "source_indicator_id": "depth_01_heading",
+                    "category": "depth",
+                    "title": "見出し構造の改善",
+                    "work_item": "ページ内の見出し階層を確認し、内容のまとまりが伝わる構造へ整理します。",
+                    "scope": "情報構造改善",
+                    "priority_rank": 2,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "expected_effect": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "サーバー環境の確認が必要です。"
+                    ],
+                    "pricing_status": {
+                        "key": "scope_needs_confirmation",
+                        "label": "範囲確認後に金額設定",
+                        "needs_human_confirmation": true
+                    }
+                }
+            ],
+            "scope": [
+                {
+                    "scope_id": "estimate_scope_001",
+                    "scope_name": "導線改善",
+                    "pricing_status": "scope_needs_confirmation"
+                },
+                {
+                    "scope_id": "estimate_scope_002",
+                    "scope_name": "情報構造改善",
+                    "pricing_status": "scope_needs_confirmation"
+                }
+            ],
+            "required_check": [
+                "CTA数",
+                "フォーム有無",
+                "予約導線有無",
+                "購入導線有無",
+                "画像容量",
+                "サーバー環境",
+                "表示速度改善範囲",
+                "対象ページ数",
+                "ページ構成",
+                "見出し数",
+                "既存テンプレート",
+                "修正範囲",
+                "サーバー環境の確認が必要です。"
+            ],
+            "pricing_note": "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。"
+        },
+        "introduction_plan_section": {
+            "summary": "SADS診断結果をもとに、優先改善項目から段階的に導入計画を整理します。 提案テーマは「行動導線と情報構造を組み合わせた導入提案」です。導入フェーズは2件、タスクは4件です。",
+            "phases": [
+                {
+                    "phase_id": "phase_001",
+                    "phase_name": "導線改善",
+                    "scope": "導線改善",
+                    "tasks": [
+                        "表示速度の確認",
+                        "表示速度の改善の実施範囲確認"
+                    ],
+                    "priority": "high",
+                    "expected_effect": "訪問者が次の行動へ進みやすくなります。",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "サーバー環境の確認が必要です。"
+                    ],
+                    "sass_connection": "SASS導線改善"
+                },
+                {
+                    "phase_id": "phase_002",
+                    "phase_name": "情報構造改善",
+                    "scope": "情報構造改善",
+                    "tasks": [
+                        "見出し構造の確認",
+                        "見出し構造の改善の実施範囲確認"
+                    ],
+                    "priority": "medium",
+                    "expected_effect": "情報構造が整理され、サイト全体の理解がしやすくなります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "サーバー環境の確認が必要です。"
+                    ],
+                    "sass_connection": "SASS構造改善"
+                }
+            ],
+            "tasks": [
+                {
+                    "task_id": "task_001",
+                    "phase_id": "phase_001",
+                    "phase_name": "導線改善",
+                    "task_name": "表示速度の確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導線改善",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "サーバー環境の確認が必要です。"
+                    ],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_002",
+                    "phase_id": "phase_001",
+                    "phase_name": "導線改善",
+                    "task_name": "表示速度の改善の実施範囲確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導線改善",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "サーバー環境の確認が必要です。"
+                    ],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_003",
+                    "phase_id": "phase_002",
+                    "phase_name": "情報構造改善",
+                    "task_name": "見出し構造の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS構造改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "サーバー環境の確認が必要です。"
+                    ],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_004",
+                    "phase_id": "phase_002",
+                    "phase_name": "情報構造改善",
+                    "task_name": "見出し構造の改善の実施範囲確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS構造改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "サーバー環境の確認が必要です。"
+                    ],
+                    "order": 2
+                }
+            ],
+            "sass_connection": [
+                "SASS導線改善",
+                "SASS構造改善"
+            ]
+        },
+        "sass_scope_section": {
+            "summary": "SADS診断結果とSAIS提案内容をもとに、SASS導入候補範囲を整理します。",
+            "candidates": [
+                {
+                    "scope_name": "導線改善",
+                    "source_recommendation": "flow_06_display_speed",
+                    "priority": 1,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "flow_improvement",
+                    "note": "導線改善をSASS導入候補範囲として整理します。"
+                },
+                {
+                    "scope_name": "情報構造改善",
+                    "source_recommendation": "depth_01_heading",
+                    "priority": 2,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "structure_improvement",
+                    "note": "情報構造改善をSASS導入候補範囲として整理します。"
+                }
+            ],
+            "recommended_modules": [
+                "Flow Module",
+                "CTA Module",
+                "Performance Support Module",
+                "Structure Module",
+                "Page Architecture Module"
+            ],
+            "operation_candidates": [
+                "CTA導線改善運用",
+                "表示速度確認運用",
+                "ページ構造の定期確認",
+                "見出し構成の運用改善"
+            ],
+            "implementation_notes": [
+                "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+                "導線改善の対象範囲を確認します。",
+                "情報構造改善の対象範囲を確認します。",
+                "表示速度の改善の見積条件を確認します。",
+                "見出し構造の改善の見積条件を確認します。"
+            ]
+        },
+        "additional_check_section": {
+            "has_additional_check": true,
+            "items": [
+                {
+                    "type": "server",
+                    "message": "サーバー環境の確認が必要です。",
+                    "target": "server",
+                    "impact": "estimate_needs_confirmation"
+                }
+            ]
+        },
+        "next_action": "改善対象と導入範囲を確認し、見積内容の確認へ進みます。"
+    },
+    "sass_bridge": {
+        "system": "SAIS",
+        "target_system": "SASS",
+        "project": "SEEN",
+        "target": {
+            "url": "https://example.com",
+            "domain": "example.com",
+            "checked_at": "2026-07-21T00:00:00+09:00"
+        },
+        "sass_scope_candidate": [
+            {
+                "scope_name": "導線改善",
+                "priority": 1,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "flow_improvement",
+                "note": "導線改善をSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "情報構造改善",
+                "priority": 2,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "structure_improvement",
+                "note": "情報構造改善をSASS導入候補範囲として整理します。"
+            }
+        ],
+        "priority_tasks": [
+            {
+                "task_id": "task_001",
+                "phase_id": "phase_001",
+                "task_name": "表示速度の確認",
+                "priority": "high",
+                "sass_connection": "SASS導線改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "サーバー環境の確認が必要です。"
+                ]
+            },
+            {
+                "task_id": "task_002",
+                "phase_id": "phase_001",
+                "task_name": "表示速度の改善の実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導線改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "サーバー環境の確認が必要です。"
+                ]
+            },
+            {
+                "task_id": "task_003",
+                "phase_id": "phase_002",
+                "task_name": "見出し構造の確認",
+                "priority": "medium",
+                "sass_connection": "SASS構造改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "サーバー環境の確認が必要です。"
+                ]
+            },
+            {
+                "task_id": "task_004",
+                "phase_id": "phase_002",
+                "task_name": "見出し構造の改善の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS構造改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "サーバー環境の確認が必要です。"
+                ]
+            }
+        ],
+        "recommended_modules": [
+            "Flow Module",
+            "CTA Module",
+            "Performance Support Module",
+            "Structure Module",
+            "Page Architecture Module"
+        ],
+        "operation_candidates": [
+            "CTA導線改善運用",
+            "表示速度確認運用",
+            "ページ構造の定期確認",
+            "見出し構成の運用改善"
+        ],
+        "implementation_notes": [
+            "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+            "導線改善の対象範囲を確認します。",
+            "情報構造改善の対象範囲を確認します。",
+            "表示速度の改善の見積条件を確認します。",
+            "見出し構造の改善の見積条件を確認します。",
+            "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。"
+        ],
+        "additional_checks": [
+            {
+                "type": "server",
+                "message": "サーバー環境の確認が必要です。",
+                "target": "server",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "CTA数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "フォーム有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "予約導線有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "購入導線有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "画像容量",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "サーバー環境",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "表示速度改善範囲",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "対象ページ数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "ページ構成",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "見出し数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "既存テンプレート",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "修正範囲",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "サーバー環境の確認が必要です。",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            }
+        ],
+        "metadata": {
+            "generated_at": "2026-07-21T07:28:41+00:00",
+            "bridge_name": "SAIS to SASS Bridge",
+            "source_engine": "SAIS",
+            "target_engine": "SASS",
+            "scope_candidate_count": 2,
+            "priority_task_count": 4,
+            "recommended_module_count": 5,
+            "additional_check_count": 14
+        }
+    },
+    "warnings": [
+        {
+            "code": "ADDITIONAL_CHECK_REQUIRED",
+            "message": "Additional check items are required before proposal confirmation.",
+            "affected_items": [
+                "additional_check_items"
+            ],
+            "impact": "additional_check_required"
+        },
+        {
+            "code": "ESTIMATE_NEEDS_CONFIRMATION",
+            "message": "Estimate items require human confirmation before pricing.",
+            "affected_items": [
+                "estimate_items"
+            ],
+            "impact": "estimate_needs_confirmation"
+        },
+        {
+            "code": "SASS_SCOPE_NEEDS_CONFIRMATION",
+            "message": "SASS scope candidate requires confirmation before implementation.",
+            "affected_items": [
+                "sass_scope_candidate"
+            ],
+            "impact": "sass_scope_needs_confirmation"
+        }
+    ],
+    "metadata": {
+        "generated_at": "2026-07-21T07:28:41+00:00",
+        "engine": "SAIS",
+        "engine_version": "1.0",
+        "source_engine": "SADS",
+        "target_engine": "SASS",
+        "document_set": "SAIS Documents Ver.1.0"
+    },
+    "processing": {
+        "classification": {
+            "proposal_input_summary": {
+                "total": 2,
+                "category_count": 2,
+                "high_impact_count": 1,
+                "high_difficulty_count": 1
+            },
+            "category_summary": {
+                "category_count": 2,
+                "total_items": 2,
+                "main_category": "flow"
+            },
+            "impact_summary": {
+                "impact_count": 2,
+                "total_items": 2,
+                "main_impact": "high",
+                "has_high_impact": true
+            },
+            "difficulty_summary": {
+                "difficulty_count": 2,
+                "total_items": 2,
+                "main_difficulty": "high",
+                "has_high_difficulty": true
+            }
+        },
+        "priority_summary": {
+            "total": 2,
+            "top_count": 2,
+            "primary_indicator_id": "flow_06_display_speed",
+            "primary_category": "flow"
+        },
+        "scope_summary": {
+            "total": 2,
+            "has_sass_pre_improvement": false,
+            "has_sass_operation_improvement": false,
+            "has_structure_improvement": true,
+            "has_flow_improvement": true
+        },
+        "additional_check_summary": {
+            "total": 1,
+            "has_additional_check": true,
+            "confidence_display": 90,
+            "warning_count": 1
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+  "system": "SADS",
+  "target_system": "SAIS",
+  "project": "SEEN",
+  "version": "1.0",
+  "target": {
+    "url": "https://example.com",
+    "domain": "example.com",
+    "checked_at": "2026-07-21T00:00:00+09:00"
+  },
+  "proposal_inputs": [
+    {
+      "indicator_id": "flow_06_display_speed",
+      "category": "flow",
+      "title": "表示速度の改善",
+      "summary": "表示速度に改善余地があります。",
+      "action": "画像容量、読み込み順序、サーバー環境を確認し、表示速度改善を行います。",
+      "expected_effect": "表示速度改善により、訪問者の離脱を抑えやすくなります。",
+      "impact": "high",
+      "difficulty": "high",
+      "priority_rank": 1,
+      "recommended_service_scope": "導線改善"
+    },
+    {
+      "indicator_id": "depth_01_heading",
+      "category": "depth",
+      "title": "見出し構造の改善",
+      "summary": "見出し階層を整理することで、情報の把握がしやすくなります。",
+      "action": "ページ内の見出し階層を確認し、内容のまとまりが伝わる構造へ整理します。",
+      "expected_effect": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+      "impact": "medium",
+      "difficulty": "medium",
+      "priority_rank": 2,
+      "recommended_service_scope": "情報構造改善"
+    }
+  ],
+  "priority_items": [
+    {
+      "rank": 1,
+      "indicator_id": "flow_06_display_speed",
+      "indicator_name": "表示速度",
+      "category": "flow",
+      "internal_score": 6.5,
+      "display_score": 65.0,
+      "recommendation": {
+        "key": "improvement",
+        "label": "改善",
+        "sais_connection": true
+      },
+      "reason": "表示速度が改善対象として検出されています。",
+      "improvement_comment": "画像容量と読み込み環境の確認を推奨します。"
+    },
+    {
+      "rank": 2,
+      "indicator_id": "depth_01_heading",
+      "indicator_name": "見出し構造",
+      "category": "depth",
+      "internal_score": 7.2,
+      "display_score": 72.0,
+      "recommendation": {
+        "key": "review",
+        "label": "見直し",
+        "sais_connection": true
+      },
+      "reason": "見出し階層の整理余地があります。",
+      "improvement_comment": "ページ構造を確認し、見出しの順序を整えます。"
+    }
+  ],
+  "client_summary": "総合スコアは87.3点です。",
+  "confidence": {
+    "internal": 0.9,
+    "display": 90.0,
+    "level": "high",
+    "missing_data_count": 0,
+    "estimated_indicator_count": 0
+  },
+  "recommended_scope": [
+    "導線改善",
+    "情報構造改善"
+  ],
+  "additional_check_items": [
+    {
+      "type": "server",
+      "message": "サーバー環境の確認が必要です。",
+      "target": "server",
+      "impact": "estimate_needs_confirmation"
+    }
+  ],
+  "metadata": {
+    "source_engine": "SADS",
+    "target_engine": "SAIS",
+    "generated_at": "2026-07-21T00:00:00+09:00"
+  }
+}
