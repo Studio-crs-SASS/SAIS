@@ -1,0 +1,185 @@
+{
+    "system": "SADS",
+    "target_system": "SAIS",
+    "project": "SEEN",
+    "version": "1.0",
+    "target": {
+        "url": "https://life-escortist.com",
+        "domain": "life-escortist.com",
+        "checked_at": "2026-07-22T14:38:09+00:00"
+    },
+    "proposal_inputs": [
+        {
+            "indicator_id": "flow_04_cta_placement",
+            "category": "flow",
+            "title": "CTA配置の改善",
+            "summary": "CTA配置の改善が改善候補です。現在の内部スコアは 0.0 です。",
+            "action": "問い合わせ、予約、購入などのCTAを適切な位置に配置する。",
+            "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+            "impact": "high",
+            "difficulty": "low",
+            "priority_rank": 1,
+            "recommended_service_scope": "SASS導入前改善 / SASS運用改善"
+        },
+        {
+            "indicator_id": "relationship_02_context_connection",
+            "category": "relationship",
+            "title": "コンテンツ文脈接続の強化",
+            "summary": "コンテンツ文脈接続の強化が改善候補です。現在の内部スコアは 0.0 です。",
+            "action": "本文内の説明をつなげ、読み進めた時の理解を深める。",
+            "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+            "impact": "high",
+            "difficulty": "low",
+            "priority_rank": 2,
+            "recommended_service_scope": "SASS導入前改善 / 内部リンク改善"
+        },
+        {
+            "indicator_id": "relationship_05_semantic_duplication_distribution",
+            "category": "relationship",
+            "title": "意味的重複・分散の整理",
+            "summary": "意味的重複・分散の整理が改善候補です。現在の内部スコアは 0.0 です。",
+            "action": "重複する説明を整理し、必要な情報を適切なページへ配置する。",
+            "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+            "impact": "high",
+            "difficulty": "high",
+            "priority_rank": 3,
+            "recommended_service_scope": "SASS導入前改善 / SASS構造改善"
+        },
+        {
+            "indicator_id": "depth_03_page_structure_clarity",
+            "category": "depth",
+            "title": "ページ構造明確性の改善",
+            "summary": "ページ構造明確性の改善が改善候補です。現在の内部スコアは 0.0 です。",
+            "action": "header、main、footer、navなどの役割を明確にする。",
+            "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+            "impact": "medium",
+            "difficulty": "high",
+            "priority_rank": 4,
+            "recommended_service_scope": "SASS導入前改善 / SASS構造改善"
+        },
+        {
+            "indicator_id": "depth_05_content_structure_consistency",
+            "category": "depth",
+            "title": "コンテンツ構造一貫性の整備",
+            "summary": "コンテンツ構造一貫性の整備が改善候補です。現在の内部スコアは 0.0 です。",
+            "action": "複数ページの構成パターンをそろえ、サイト全体の把握をしやすくする。",
+            "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+            "impact": "medium",
+            "difficulty": "medium",
+            "priority_rank": 5,
+            "recommended_service_scope": "SASS導入前改善 / 情報構造改善"
+        }
+    ],
+    "priority_items": [
+        {
+            "rank": 1,
+            "indicator_id": "flow_04_cta_placement",
+            "indicator_name": "CTA配置",
+            "category": "flow",
+            "internal_score": 0,
+            "display_score": 0,
+            "recommendation": {
+                "key": "redesign",
+                "label": "再設計",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "再設計レベルでの対応を推奨します。"
+        },
+        {
+            "rank": 2,
+            "indicator_id": "relationship_02_context_connection",
+            "indicator_name": "コンテンツ文脈接続",
+            "category": "relationship",
+            "internal_score": 0,
+            "display_score": 0,
+            "recommendation": {
+                "key": "redesign",
+                "label": "再設計",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "再設計レベルでの対応を推奨します。"
+        },
+        {
+            "rank": 3,
+            "indicator_id": "relationship_05_semantic_duplication_distribution",
+            "indicator_name": "意味的重複・分散",
+            "category": "relationship",
+            "internal_score": 0,
+            "display_score": 0,
+            "recommendation": {
+                "key": "redesign",
+                "label": "再設計",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "再設計レベルでの対応を推奨します。"
+        },
+        {
+            "rank": 4,
+            "indicator_id": "depth_03_page_structure_clarity",
+            "indicator_name": "ページ構造明確性",
+            "category": "depth",
+            "internal_score": 0,
+            "display_score": 0,
+            "recommendation": {
+                "key": "redesign",
+                "label": "再設計",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "再設計レベルでの対応を推奨します。"
+        },
+        {
+            "rank": 5,
+            "indicator_id": "depth_05_content_structure_consistency",
+            "indicator_name": "コンテンツ構造一貫性",
+            "category": "depth",
+            "internal_score": 0,
+            "display_score": 0,
+            "recommendation": {
+                "key": "redesign",
+                "label": "再設計",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "再設計レベルでの対応を推奨します。"
+        }
+    ],
+    "client_summary": "総合スコアは39.0点、評価は「危険」です。診断信頼度は39.1%です。",
+    "confidence": {
+        "internal": 0.4,
+        "display": 39.1,
+        "level": {
+            "key": "reference_value",
+            "label": "参考値",
+            "min": 0,
+            "max": 49.9
+        },
+        "input_completeness": 39.1,
+        "analysis_success_rate": 39.1,
+        "source_reliability": 39.1,
+        "data_freshness": 39.1,
+        "structural_coverage": 39.1,
+        "missing_data_count": 19,
+        "estimated_indicator_count": 0
+    },
+    "recommended_scope": [
+        "SASS導入前改善 / SASS運用改善",
+        "SASS導入前改善 / 内部リンク改善",
+        "SASS導入前改善 / SASS構造改善",
+        "SASS導入前改善 / 情報構造改善"
+    ],
+    "additional_check_items": [
+        {
+            "type": "low_confidence",
+            "message": "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+        }
+    ],
+    "metadata": {
+        "generated_at": "2026-07-22T23:41:52+09:00",
+        "source_engine": "SADS",
+        "target_engine": "SAIS"
+    }
+}

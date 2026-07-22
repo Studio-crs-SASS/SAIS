@@ -1,0 +1,2177 @@
+{
+    "status": "success",
+    "system": "SAIS",
+    "version": "1.0",
+    "project": "SEEN",
+    "target": {
+        "url": "https://life-escortist.com",
+        "domain": "life-escortist.com",
+        "checked_at": "2026-07-22T14:38:09+00:00"
+    },
+    "source": {
+        "system": "SADS",
+        "target_system": "SAIS",
+        "version": "1.0"
+    },
+    "proposal": {
+        "title": "行動導線と情報接続を組み合わせた導入提案",
+        "summary": "総合スコアは39.0点、評価は「危険」です。診断信頼度は39.1%です。 CTA配置を中心に、行動導線と情報接続を組み合わせた導入提案として整理します。",
+        "diagnosis_connection": "SADS診断で確認された改善優先項目をもとに、導入提案を整理します。",
+        "priority_reason": "CTA配置の優先度が高いため、最初に確認する改善対象として扱います。",
+        "recommended_actions": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "flow_04_cta_placement",
+                "category": "flow",
+                "title": "CTA配置の改善",
+                "action": "問い合わせ、予約、購入などのCTAを適切な位置に配置する。",
+                "impact": "high",
+                "difficulty": "low",
+                "recommended_service_scope": "SASS導入前改善 / SASS運用改善"
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "relationship_02_context_connection",
+                "category": "relationship",
+                "title": "コンテンツ文脈接続の強化",
+                "action": "本文内の説明をつなげ、読み進めた時の理解を深める。",
+                "impact": "high",
+                "difficulty": "low",
+                "recommended_service_scope": "SASS導入前改善 / 内部リンク改善"
+            },
+            {
+                "priority_rank": 3,
+                "indicator_id": "relationship_05_semantic_duplication_distribution",
+                "category": "relationship",
+                "title": "意味的重複・分散の整理",
+                "action": "重複する説明を整理し、必要な情報を適切なページへ配置する。",
+                "impact": "high",
+                "difficulty": "high",
+                "recommended_service_scope": "SASS導入前改善 / SASS構造改善"
+            },
+            {
+                "priority_rank": 4,
+                "indicator_id": "depth_03_page_structure_clarity",
+                "category": "depth",
+                "title": "ページ構造明確性の改善",
+                "action": "header、main、footer、navなどの役割を明確にする。",
+                "impact": "medium",
+                "difficulty": "high",
+                "recommended_service_scope": "SASS導入前改善 / SASS構造改善"
+            },
+            {
+                "priority_rank": 5,
+                "indicator_id": "depth_05_content_structure_consistency",
+                "category": "depth",
+                "title": "コンテンツ構造一貫性の整備",
+                "action": "複数ページの構成パターンをそろえ、サイト全体の把握をしやすくする。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": "SASS導入前改善 / 情報構造改善"
+            }
+        ],
+        "expected_effects": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "flow_04_cta_placement",
+                "category": "flow",
+                "title": "CTA配置の改善",
+                "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                "impact": "high",
+                "difficulty": "low"
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "relationship_02_context_connection",
+                "category": "relationship",
+                "title": "コンテンツ文脈接続の強化",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "low"
+            },
+            {
+                "priority_rank": 3,
+                "indicator_id": "relationship_05_semantic_duplication_distribution",
+                "category": "relationship",
+                "title": "意味的重複・分散の整理",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "high"
+            },
+            {
+                "priority_rank": 4,
+                "indicator_id": "depth_03_page_structure_clarity",
+                "category": "depth",
+                "title": "ページ構造明確性の改善",
+                "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+                "impact": "medium",
+                "difficulty": "high"
+            },
+            {
+                "priority_rank": 5,
+                "indicator_id": "depth_05_content_structure_consistency",
+                "category": "depth",
+                "title": "コンテンツ構造一貫性の整備",
+                "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            }
+        ],
+        "scope_summary": "今回の提案では、SASS導入前改善 / SASS運用改善、SASS導入前改善 / 内部リンク改善、SASS導入前改善 / SASS構造改善、SASS導入前改善 / 情報構造改善を中心範囲とします。",
+        "confidence_note": "提案前に追加確認を行う必要があります。",
+        "additional_check_note": "診断信頼度が低いため、提案前に追加確認を行う必要があります。",
+        "suggested_next_step": "改善対象と導入範囲を確認し、見積内容の確認へ進みます。",
+        "client_message": "総合スコアは39.0点、評価は「危険」です。診断信頼度は39.1%です。 特にCTA配置を優先し、SASS導入前改善 / SASS運用改善、SASS導入前改善 / 内部リンク改善、SASS導入前改善 / SASS構造改善、SASS導入前改善 / 情報構造改善として進める提案です。 診断信頼度が低いため、提案前に追加確認を行う必要があります。",
+        "summary_data": {
+            "action_summary": {
+                "total": 5,
+                "high_impact_count": 3,
+                "high_difficulty_count": 2,
+                "primary_action_title": "CTA配置の改善"
+            },
+            "effect_summary": {
+                "total": 5,
+                "primary_indicator_id": "flow_04_cta_placement",
+                "primary_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                "high_impact_count": 3
+            },
+            "combined_effect_message": "訪問者が迷わず次の行動へ進みやすくなります。 情報同士のつながりが強まり、サイト全体の理解が深まります。 情報同士のつながりが強まり、サイト全体の理解が深まります。"
+        }
+    },
+    "estimate": {
+        "estimate_summary": "今回の見積項目は、SADS診断で確認された優先改善項目をもとに整理しています。 見積項目は5件です。",
+        "estimate_items": [
+            {
+                "item_id": "estimate_item_001",
+                "source_indicator_id": "flow_04_cta_placement",
+                "category": "flow",
+                "title": "CTA配置の改善",
+                "work_item": "問い合わせ、予約、購入などのCTAを適切な位置に配置する。",
+                "scope": "SASS導入前改善 / SASS運用改善",
+                "priority_rank": 1,
+                "impact": "high",
+                "difficulty": "low",
+                "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "pricing_status": {
+                    "key": "scope_needs_confirmation",
+                    "label": "範囲確認後に金額設定",
+                    "needs_human_confirmation": true
+                }
+            },
+            {
+                "item_id": "estimate_item_002",
+                "source_indicator_id": "relationship_02_context_connection",
+                "category": "relationship",
+                "title": "コンテンツ文脈接続の強化",
+                "work_item": "本文内の説明をつなげ、読み進めた時の理解を深める。",
+                "scope": "SASS導入前改善 / 内部リンク改善",
+                "priority_rank": 2,
+                "impact": "high",
+                "difficulty": "low",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "pricing_status": {
+                    "key": "scope_needs_confirmation",
+                    "label": "範囲確認後に金額設定",
+                    "needs_human_confirmation": true
+                }
+            },
+            {
+                "item_id": "estimate_item_003",
+                "source_indicator_id": "relationship_05_semantic_duplication_distribution",
+                "category": "relationship",
+                "title": "意味的重複・分散の整理",
+                "work_item": "重複する説明を整理し、必要な情報を適切なページへ配置する。",
+                "scope": "SASS導入前改善 / SASS構造改善",
+                "priority_rank": 3,
+                "impact": "high",
+                "difficulty": "high",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "pricing_status": {
+                    "key": "needs_manual_pricing",
+                    "label": "人間による金額確認が必要",
+                    "needs_human_confirmation": true
+                }
+            },
+            {
+                "item_id": "estimate_item_004",
+                "source_indicator_id": "depth_03_page_structure_clarity",
+                "category": "depth",
+                "title": "ページ構造明確性の改善",
+                "work_item": "header、main、footer、navなどの役割を明確にする。",
+                "scope": "SASS導入前改善 / SASS構造改善",
+                "priority_rank": 4,
+                "impact": "medium",
+                "difficulty": "high",
+                "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "pricing_status": {
+                    "key": "needs_manual_pricing",
+                    "label": "人間による金額確認が必要",
+                    "needs_human_confirmation": true
+                }
+            },
+            {
+                "item_id": "estimate_item_005",
+                "source_indicator_id": "depth_05_content_structure_consistency",
+                "category": "depth",
+                "title": "コンテンツ構造一貫性の整備",
+                "work_item": "複数ページの構成パターンをそろえ、サイト全体の把握をしやすくする。",
+                "scope": "SASS導入前改善 / 情報構造改善",
+                "priority_rank": 5,
+                "impact": "medium",
+                "difficulty": "medium",
+                "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "pricing_status": {
+                    "key": "scope_needs_confirmation",
+                    "label": "範囲確認後に金額設定",
+                    "needs_human_confirmation": true
+                }
+            }
+        ],
+        "scope": [
+            {
+                "scope_id": "estimate_scope_001",
+                "scope_name": "SASS導入前改善 / SASS運用改善",
+                "pricing_status": "scope_needs_confirmation"
+            },
+            {
+                "scope_id": "estimate_scope_002",
+                "scope_name": "SASS導入前改善 / 内部リンク改善",
+                "pricing_status": "scope_needs_confirmation"
+            },
+            {
+                "scope_id": "estimate_scope_003",
+                "scope_name": "SASS導入前改善 / SASS構造改善",
+                "pricing_status": "scope_needs_confirmation"
+            },
+            {
+                "scope_id": "estimate_scope_004",
+                "scope_name": "SASS導入前改善 / 情報構造改善",
+                "pricing_status": "scope_needs_confirmation"
+            }
+        ],
+        "priority": [
+            {
+                "rank": 1,
+                "indicator_id": "flow_04_cta_placement",
+                "indicator_name": "CTA配置",
+                "category": "flow"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "relationship_02_context_connection",
+                "indicator_name": "コンテンツ文脈接続",
+                "category": "relationship"
+            },
+            {
+                "rank": 3,
+                "indicator_id": "relationship_05_semantic_duplication_distribution",
+                "indicator_name": "意味的重複・分散",
+                "category": "relationship"
+            },
+            {
+                "rank": 4,
+                "indicator_id": "depth_03_page_structure_clarity",
+                "indicator_name": "ページ構造明確性",
+                "category": "depth"
+            },
+            {
+                "rank": 5,
+                "indicator_id": "depth_05_content_structure_consistency",
+                "indicator_name": "コンテンツ構造一貫性",
+                "category": "depth"
+            }
+        ],
+        "difficulty_summary": "軽微な改善項目が中心のため、比較的進めやすい構成です。",
+        "impact_summary": "成果への影響が大きい改善項目を含むため、優先的な対応を推奨します。",
+        "required_check": [
+            "CTA数",
+            "フォーム有無",
+            "予約導線有無",
+            "購入導線有無",
+            "画像容量",
+            "サーバー環境",
+            "表示速度改善範囲",
+            "対象ページ数",
+            "内部リンク本数",
+            "関連ページ数",
+            "重複箇所",
+            "外部リンク有無",
+            "SNS接続有無",
+            "ページ構成",
+            "見出し数",
+            "既存テンプレート",
+            "修正範囲",
+            "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+        ],
+        "pricing_note": "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。",
+        "summary_data": {
+            "total_items": 5,
+            "required_check_count": 18,
+            "needs_confirmation_count": 5,
+            "main_difficulty": "low",
+            "main_impact": "high"
+        }
+    },
+    "introduction_plan": {
+        "plan_summary": "SADS診断結果をもとに、優先改善項目から段階的に導入計画を整理します。 提案テーマは「行動導線と情報接続を組み合わせた導入提案」です。導入フェーズは4件、タスクは13件です。",
+        "phases": [
+            {
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "scope": "SASS導入前改善",
+                "tasks": [
+                    "ページ構造明確性の確認",
+                    "コンテンツ構造一貫性の確認",
+                    "CTA配置の改善の実施範囲確認"
+                ],
+                "priority": "high",
+                "expected_effect": "導入後の改善運用につなげやすくなります。",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "sass_connection": "SASS導入前改善"
+            },
+            {
+                "phase_id": "phase_002",
+                "phase_name": "導入前改善",
+                "scope": "SASS導入前改善",
+                "tasks": [
+                    "コンテンツ文脈接続の確認",
+                    "意味的重複・分散の確認",
+                    "コンテンツ文脈接続の強化の実施範囲確認"
+                ],
+                "priority": "medium",
+                "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "sass_connection": "SASS導入前改善"
+            },
+            {
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "scope": "SASS導入前改善",
+                "tasks": [
+                    "ページ構造明確性の確認",
+                    "コンテンツ構造一貫性の確認",
+                    "意味的重複・分散の整理の実施範囲確認",
+                    "ページ構造明確性の改善の実施範囲確認"
+                ],
+                "priority": "medium",
+                "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "sass_connection": "SASS導入前改善"
+            },
+            {
+                "phase_id": "phase_004",
+                "phase_name": "導入前改善",
+                "scope": "SASS導入前改善",
+                "tasks": [
+                    "ページ構造明確性の確認",
+                    "コンテンツ構造一貫性の確認",
+                    "コンテンツ構造一貫性の整備の実施範囲確認"
+                ],
+                "priority": "medium",
+                "expected_effect": "情報構造が整理され、サイト全体の理解がしやすくなります。",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "sass_connection": "SASS導入前改善"
+            }
+        ],
+        "tasks": [
+            {
+                "task_id": "task_001",
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "task_name": "ページ構造明確性の確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "order": 1
+            },
+            {
+                "task_id": "task_002",
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "task_name": "コンテンツ構造一貫性の確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "order": 2
+            },
+            {
+                "task_id": "task_003",
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "task_name": "CTA配置の改善の実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "order": 3
+            },
+            {
+                "task_id": "task_004",
+                "phase_id": "phase_002",
+                "phase_name": "導入前改善",
+                "task_name": "コンテンツ文脈接続の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "order": 1
+            },
+            {
+                "task_id": "task_005",
+                "phase_id": "phase_002",
+                "phase_name": "導入前改善",
+                "task_name": "意味的重複・分散の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "order": 2
+            },
+            {
+                "task_id": "task_006",
+                "phase_id": "phase_002",
+                "phase_name": "導入前改善",
+                "task_name": "コンテンツ文脈接続の強化の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "order": 3
+            },
+            {
+                "task_id": "task_007",
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "task_name": "ページ構造明確性の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "order": 1
+            },
+            {
+                "task_id": "task_008",
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "task_name": "コンテンツ構造一貫性の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "order": 2
+            },
+            {
+                "task_id": "task_009",
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "task_name": "意味的重複・分散の整理の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "order": 3
+            },
+            {
+                "task_id": "task_010",
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "task_name": "ページ構造明確性の改善の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "order": 4
+            },
+            {
+                "task_id": "task_011",
+                "phase_id": "phase_004",
+                "phase_name": "導入前改善",
+                "task_name": "ページ構造明確性の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ],
+                "order": 1
+            },
+            {
+                "task_id": "task_012",
+                "phase_id": "phase_004",
+                "phase_name": "導入前改善",
+                "task_name": "コンテンツ構造一貫性の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無"
+                ],
+                "order": 2
+            },
+            {
+                "task_id": "task_013",
+                "phase_id": "phase_004",
+                "phase_name": "導入前改善",
+                "task_name": "コンテンツ構造一貫性の整備の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無"
+                ],
+                "order": 3
+            }
+        ],
+        "priority": [
+            {
+                "rank": 1,
+                "indicator_id": "flow_04_cta_placement",
+                "indicator_name": "CTA配置",
+                "category": "flow"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "relationship_02_context_connection",
+                "indicator_name": "コンテンツ文脈接続",
+                "category": "relationship"
+            },
+            {
+                "rank": 3,
+                "indicator_id": "relationship_05_semantic_duplication_distribution",
+                "indicator_name": "意味的重複・分散",
+                "category": "relationship"
+            },
+            {
+                "rank": 4,
+                "indicator_id": "depth_03_page_structure_clarity",
+                "indicator_name": "ページ構造明確性",
+                "category": "depth"
+            },
+            {
+                "rank": 5,
+                "indicator_id": "depth_05_content_structure_consistency",
+                "indicator_name": "コンテンツ構造一貫性",
+                "category": "depth"
+            }
+        ],
+        "expected_effects": [
+            "導入後の改善運用につなげやすくなります。",
+            "SASS導入前の確認と改善準備が進めやすくなります。",
+            "情報構造が整理され、サイト全体の理解がしやすくなります。",
+            "訪問者が迷わず次の行動へ進みやすくなります。",
+            "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+            "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。"
+        ],
+        "required_check": [
+            "CTA数",
+            "フォーム有無",
+            "予約導線有無",
+            "購入導線有無",
+            "画像容量",
+            "サーバー環境",
+            "表示速度改善範囲",
+            "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+            "対象ページ数",
+            "内部リンク本数",
+            "関連ページ数",
+            "重複箇所",
+            "外部リンク有無",
+            "SNS接続有無",
+            "ページ構成",
+            "見出し数",
+            "既存テンプレート",
+            "修正範囲"
+        ],
+        "sass_connection": [
+            "SASS導入前改善"
+        ],
+        "summary_data": {
+            "phase_count": 4,
+            "task_count": 13,
+            "high_priority_task_count": 3,
+            "sass_connected_task_count": 13,
+            "first_task": "ページ構造明確性の確認"
+        }
+    },
+    "sass_scope_candidate": {
+        "summary": "SADS診断結果とSAIS提案内容をもとに、SASS導入候補範囲を整理します。",
+        "candidates": [
+            {
+                "scope_name": "SASS導入前改善 / SASS運用改善",
+                "source_recommendation": "flow_04_cta_placement",
+                "priority": 1,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS導入前改善 / SASS運用改善をSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "SASS導入前改善 / 内部リンク改善",
+                "source_recommendation": "relationship_02_context_connection",
+                "priority": 2,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS導入前改善 / 内部リンク改善をSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "SASS導入前改善 / SASS構造改善",
+                "source_recommendation": "relationship_05_semantic_duplication_distribution",
+                "priority": 3,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS導入前改善 / SASS構造改善をSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "SASS導入前改善 / 情報構造改善",
+                "source_recommendation": "depth_03_page_structure_clarity",
+                "priority": 4,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS導入前改善 / 情報構造改善をSASS導入候補範囲として整理します。"
+            }
+        ],
+        "recommended_modules": [
+            "Structure Module",
+            "Page Architecture Module"
+        ],
+        "operation_candidates": [
+            "ページ構造の定期確認",
+            "見出し構成の運用改善"
+        ],
+        "implementation_notes": [
+            "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+            "SASS導入前改善 / SASS運用改善の対象範囲を確認します。",
+            "SASS導入前改善 / 内部リンク改善の対象範囲を確認します。",
+            "SASS導入前改善 / SASS構造改善の対象範囲を確認します。",
+            "SASS導入前改善 / 情報構造改善の対象範囲を確認します。",
+            "CTA配置の改善の見積条件を確認します。",
+            "コンテンツ文脈接続の強化の見積条件を確認します。",
+            "意味的重複・分散の整理の見積条件を確認します。",
+            "ページ構造明確性の改善の見積条件を確認します。",
+            "コンテンツ構造一貫性の整備の見積条件を確認します。"
+        ]
+    },
+    "additional_check_items": [
+        {
+            "type": "low_confidence",
+            "message": "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+        }
+    ],
+    "proposal_data": {
+        "cover": {
+            "title": "行動導線と情報接続を組み合わせた導入提案",
+            "target_name": "life-escortist.com",
+            "target_url": "https://life-escortist.com",
+            "system": "SAIS",
+            "project": "SEEN",
+            "document_type": "Introduction Proposal"
+        },
+        "executive_summary": "総合スコアは39.0点、評価は「危険」です。診断信頼度は39.1%です。 特にCTA配置を優先し、SASS導入前改善 / SASS運用改善、SASS導入前改善 / 内部リンク改善、SASS導入前改善 / SASS構造改善、SASS導入前改善 / 情報構造改善として進める提案です。 診断信頼度が低いため、提案前に追加確認を行う必要があります。",
+        "diagnosis_summary": {
+            "diagnosis_connection": "SADS診断で確認された改善優先項目をもとに、導入提案を整理します。",
+            "priority_reason": "CTA配置の優先度が高いため、最初に確認する改善対象として扱います。",
+            "confidence_note": "提案前に追加確認を行う必要があります。"
+        },
+        "proposal_overview": {
+            "title": "行動導線と情報接続を組み合わせた導入提案",
+            "summary": "総合スコアは39.0点、評価は「危険」です。診断信頼度は39.1%です。 CTA配置を中心に、行動導線と情報接続を組み合わせた導入提案として整理します。",
+            "scope_summary": "今回の提案では、SASS導入前改善 / SASS運用改善、SASS導入前改善 / 内部リンク改善、SASS導入前改善 / SASS構造改善、SASS導入前改善 / 情報構造改善を中心範囲とします。",
+            "additional_check_note": "診断信頼度が低いため、提案前に追加確認を行う必要があります。"
+        },
+        "priority_improvement_items": [
+            {
+                "rank": 1,
+                "indicator_id": "flow_04_cta_placement",
+                "title": "CTA配置の改善",
+                "category": "flow",
+                "action": "問い合わせ、予約、購入などのCTAを適切な位置に配置する。",
+                "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                "impact": "high",
+                "difficulty": "low"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "relationship_02_context_connection",
+                "title": "コンテンツ文脈接続の強化",
+                "category": "relationship",
+                "action": "本文内の説明をつなげ、読み進めた時の理解を深める。",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "low"
+            },
+            {
+                "rank": 3,
+                "indicator_id": "relationship_05_semantic_duplication_distribution",
+                "title": "意味的重複・分散の整理",
+                "category": "relationship",
+                "action": "重複する説明を整理し、必要な情報を適切なページへ配置する。",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "high"
+            },
+            {
+                "rank": 4,
+                "indicator_id": "depth_03_page_structure_clarity",
+                "title": "ページ構造明確性の改善",
+                "category": "depth",
+                "action": "header、main、footer、navなどの役割を明確にする。",
+                "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+                "impact": "medium",
+                "difficulty": "high"
+            },
+            {
+                "rank": 5,
+                "indicator_id": "depth_05_content_structure_consistency",
+                "title": "コンテンツ構造一貫性の整備",
+                "category": "depth",
+                "action": "複数ページの構成パターンをそろえ、サイト全体の把握をしやすくする。",
+                "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            }
+        ],
+        "recommended_actions": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "flow_04_cta_placement",
+                "category": "flow",
+                "title": "CTA配置の改善",
+                "action": "問い合わせ、予約、購入などのCTAを適切な位置に配置する。",
+                "impact": "high",
+                "difficulty": "low",
+                "recommended_service_scope": "SASS導入前改善 / SASS運用改善"
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "relationship_02_context_connection",
+                "category": "relationship",
+                "title": "コンテンツ文脈接続の強化",
+                "action": "本文内の説明をつなげ、読み進めた時の理解を深める。",
+                "impact": "high",
+                "difficulty": "low",
+                "recommended_service_scope": "SASS導入前改善 / 内部リンク改善"
+            },
+            {
+                "priority_rank": 3,
+                "indicator_id": "relationship_05_semantic_duplication_distribution",
+                "category": "relationship",
+                "title": "意味的重複・分散の整理",
+                "action": "重複する説明を整理し、必要な情報を適切なページへ配置する。",
+                "impact": "high",
+                "difficulty": "high",
+                "recommended_service_scope": "SASS導入前改善 / SASS構造改善"
+            },
+            {
+                "priority_rank": 4,
+                "indicator_id": "depth_03_page_structure_clarity",
+                "category": "depth",
+                "title": "ページ構造明確性の改善",
+                "action": "header、main、footer、navなどの役割を明確にする。",
+                "impact": "medium",
+                "difficulty": "high",
+                "recommended_service_scope": "SASS導入前改善 / SASS構造改善"
+            },
+            {
+                "priority_rank": 5,
+                "indicator_id": "depth_05_content_structure_consistency",
+                "category": "depth",
+                "title": "コンテンツ構造一貫性の整備",
+                "action": "複数ページの構成パターンをそろえ、サイト全体の把握をしやすくする。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": "SASS導入前改善 / 情報構造改善"
+            }
+        ],
+        "estimate_section": {
+            "summary": "今回の見積項目は、SADS診断で確認された優先改善項目をもとに整理しています。 見積項目は5件です。",
+            "items": [
+                {
+                    "item_id": "estimate_item_001",
+                    "source_indicator_id": "flow_04_cta_placement",
+                    "category": "flow",
+                    "title": "CTA配置の改善",
+                    "work_item": "問い合わせ、予約、購入などのCTAを適切な位置に配置する。",
+                    "scope": "SASS導入前改善 / SASS運用改善",
+                    "priority_rank": 1,
+                    "impact": "high",
+                    "difficulty": "low",
+                    "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "pricing_status": {
+                        "key": "scope_needs_confirmation",
+                        "label": "範囲確認後に金額設定",
+                        "needs_human_confirmation": true
+                    }
+                },
+                {
+                    "item_id": "estimate_item_002",
+                    "source_indicator_id": "relationship_02_context_connection",
+                    "category": "relationship",
+                    "title": "コンテンツ文脈接続の強化",
+                    "work_item": "本文内の説明をつなげ、読み進めた時の理解を深める。",
+                    "scope": "SASS導入前改善 / 内部リンク改善",
+                    "priority_rank": 2,
+                    "impact": "high",
+                    "difficulty": "low",
+                    "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "pricing_status": {
+                        "key": "scope_needs_confirmation",
+                        "label": "範囲確認後に金額設定",
+                        "needs_human_confirmation": true
+                    }
+                },
+                {
+                    "item_id": "estimate_item_003",
+                    "source_indicator_id": "relationship_05_semantic_duplication_distribution",
+                    "category": "relationship",
+                    "title": "意味的重複・分散の整理",
+                    "work_item": "重複する説明を整理し、必要な情報を適切なページへ配置する。",
+                    "scope": "SASS導入前改善 / SASS構造改善",
+                    "priority_rank": 3,
+                    "impact": "high",
+                    "difficulty": "high",
+                    "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "pricing_status": {
+                        "key": "needs_manual_pricing",
+                        "label": "人間による金額確認が必要",
+                        "needs_human_confirmation": true
+                    }
+                },
+                {
+                    "item_id": "estimate_item_004",
+                    "source_indicator_id": "depth_03_page_structure_clarity",
+                    "category": "depth",
+                    "title": "ページ構造明確性の改善",
+                    "work_item": "header、main、footer、navなどの役割を明確にする。",
+                    "scope": "SASS導入前改善 / SASS構造改善",
+                    "priority_rank": 4,
+                    "impact": "medium",
+                    "difficulty": "high",
+                    "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "pricing_status": {
+                        "key": "needs_manual_pricing",
+                        "label": "人間による金額確認が必要",
+                        "needs_human_confirmation": true
+                    }
+                },
+                {
+                    "item_id": "estimate_item_005",
+                    "source_indicator_id": "depth_05_content_structure_consistency",
+                    "category": "depth",
+                    "title": "コンテンツ構造一貫性の整備",
+                    "work_item": "複数ページの構成パターンをそろえ、サイト全体の把握をしやすくする。",
+                    "scope": "SASS導入前改善 / 情報構造改善",
+                    "priority_rank": 5,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "expected_effect": "情報構造が整理され、AIと訪問者の双方が内容を把握しやすくなります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "pricing_status": {
+                        "key": "scope_needs_confirmation",
+                        "label": "範囲確認後に金額設定",
+                        "needs_human_confirmation": true
+                    }
+                }
+            ],
+            "scope": [
+                {
+                    "scope_id": "estimate_scope_001",
+                    "scope_name": "SASS導入前改善 / SASS運用改善",
+                    "pricing_status": "scope_needs_confirmation"
+                },
+                {
+                    "scope_id": "estimate_scope_002",
+                    "scope_name": "SASS導入前改善 / 内部リンク改善",
+                    "pricing_status": "scope_needs_confirmation"
+                },
+                {
+                    "scope_id": "estimate_scope_003",
+                    "scope_name": "SASS導入前改善 / SASS構造改善",
+                    "pricing_status": "scope_needs_confirmation"
+                },
+                {
+                    "scope_id": "estimate_scope_004",
+                    "scope_name": "SASS導入前改善 / 情報構造改善",
+                    "pricing_status": "scope_needs_confirmation"
+                }
+            ],
+            "required_check": [
+                "CTA数",
+                "フォーム有無",
+                "予約導線有無",
+                "購入導線有無",
+                "画像容量",
+                "サーバー環境",
+                "表示速度改善範囲",
+                "対象ページ数",
+                "内部リンク本数",
+                "関連ページ数",
+                "重複箇所",
+                "外部リンク有無",
+                "SNS接続有無",
+                "ページ構成",
+                "見出し数",
+                "既存テンプレート",
+                "修正範囲",
+                "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+            ],
+            "pricing_note": "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。"
+        },
+        "introduction_plan_section": {
+            "summary": "SADS診断結果をもとに、優先改善項目から段階的に導入計画を整理します。 提案テーマは「行動導線と情報接続を組み合わせた導入提案」です。導入フェーズは4件、タスクは13件です。",
+            "phases": [
+                {
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "scope": "SASS導入前改善",
+                    "tasks": [
+                        "ページ構造明確性の確認",
+                        "コンテンツ構造一貫性の確認",
+                        "CTA配置の改善の実施範囲確認"
+                    ],
+                    "priority": "high",
+                    "expected_effect": "導入後の改善運用につなげやすくなります。",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "sass_connection": "SASS導入前改善"
+                },
+                {
+                    "phase_id": "phase_002",
+                    "phase_name": "導入前改善",
+                    "scope": "SASS導入前改善",
+                    "tasks": [
+                        "コンテンツ文脈接続の確認",
+                        "意味的重複・分散の確認",
+                        "コンテンツ文脈接続の強化の実施範囲確認"
+                    ],
+                    "priority": "medium",
+                    "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "sass_connection": "SASS導入前改善"
+                },
+                {
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "scope": "SASS導入前改善",
+                    "tasks": [
+                        "ページ構造明確性の確認",
+                        "コンテンツ構造一貫性の確認",
+                        "意味的重複・分散の整理の実施範囲確認",
+                        "ページ構造明確性の改善の実施範囲確認"
+                    ],
+                    "priority": "medium",
+                    "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "sass_connection": "SASS導入前改善"
+                },
+                {
+                    "phase_id": "phase_004",
+                    "phase_name": "導入前改善",
+                    "scope": "SASS導入前改善",
+                    "tasks": [
+                        "ページ構造明確性の確認",
+                        "コンテンツ構造一貫性の確認",
+                        "コンテンツ構造一貫性の整備の実施範囲確認"
+                    ],
+                    "priority": "medium",
+                    "expected_effect": "情報構造が整理され、サイト全体の理解がしやすくなります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "sass_connection": "SASS導入前改善"
+                }
+            ],
+            "tasks": [
+                {
+                    "task_id": "task_001",
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "task_name": "ページ構造明確性の確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_002",
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "task_name": "コンテンツ構造一貫性の確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_003",
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "task_name": "CTA配置の改善の実施範囲確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "order": 3
+                },
+                {
+                    "task_id": "task_004",
+                    "phase_id": "phase_002",
+                    "phase_name": "導入前改善",
+                    "task_name": "コンテンツ文脈接続の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_005",
+                    "phase_id": "phase_002",
+                    "phase_name": "導入前改善",
+                    "task_name": "意味的重複・分散の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_006",
+                    "phase_id": "phase_002",
+                    "phase_name": "導入前改善",
+                    "task_name": "コンテンツ文脈接続の強化の実施範囲確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "order": 3
+                },
+                {
+                    "task_id": "task_007",
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "task_name": "ページ構造明確性の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_008",
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "task_name": "コンテンツ構造一貫性の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_009",
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "task_name": "意味的重複・分散の整理の実施範囲確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "order": 3
+                },
+                {
+                    "task_id": "task_010",
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "task_name": "ページ構造明確性の改善の実施範囲確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "order": 4
+                },
+                {
+                    "task_id": "task_011",
+                    "phase_id": "phase_004",
+                    "phase_name": "導入前改善",
+                    "task_name": "ページ構造明確性の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                    ],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_012",
+                    "phase_id": "phase_004",
+                    "phase_name": "導入前改善",
+                    "task_name": "コンテンツ構造一貫性の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無"
+                    ],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_013",
+                    "phase_id": "phase_004",
+                    "phase_name": "導入前改善",
+                    "task_name": "コンテンツ構造一貫性の整備の実施範囲確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無"
+                    ],
+                    "order": 3
+                }
+            ],
+            "sass_connection": [
+                "SASS導入前改善"
+            ]
+        },
+        "sass_scope_section": {
+            "summary": "SADS診断結果とSAIS提案内容をもとに、SASS導入候補範囲を整理します。",
+            "candidates": [
+                {
+                    "scope_name": "SASS導入前改善 / SASS運用改善",
+                    "source_recommendation": "flow_04_cta_placement",
+                    "priority": 1,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "pre_improvement",
+                    "note": "SASS導入前改善 / SASS運用改善をSASS導入候補範囲として整理します。"
+                },
+                {
+                    "scope_name": "SASS導入前改善 / 内部リンク改善",
+                    "source_recommendation": "relationship_02_context_connection",
+                    "priority": 2,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "pre_improvement",
+                    "note": "SASS導入前改善 / 内部リンク改善をSASS導入候補範囲として整理します。"
+                },
+                {
+                    "scope_name": "SASS導入前改善 / SASS構造改善",
+                    "source_recommendation": "relationship_05_semantic_duplication_distribution",
+                    "priority": 3,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "pre_improvement",
+                    "note": "SASS導入前改善 / SASS構造改善をSASS導入候補範囲として整理します。"
+                },
+                {
+                    "scope_name": "SASS導入前改善 / 情報構造改善",
+                    "source_recommendation": "depth_03_page_structure_clarity",
+                    "priority": 4,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "pre_improvement",
+                    "note": "SASS導入前改善 / 情報構造改善をSASS導入候補範囲として整理します。"
+                }
+            ],
+            "recommended_modules": [
+                "Structure Module",
+                "Page Architecture Module"
+            ],
+            "operation_candidates": [
+                "ページ構造の定期確認",
+                "見出し構成の運用改善"
+            ],
+            "implementation_notes": [
+                "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+                "SASS導入前改善 / SASS運用改善の対象範囲を確認します。",
+                "SASS導入前改善 / 内部リンク改善の対象範囲を確認します。",
+                "SASS導入前改善 / SASS構造改善の対象範囲を確認します。",
+                "SASS導入前改善 / 情報構造改善の対象範囲を確認します。",
+                "CTA配置の改善の見積条件を確認します。",
+                "コンテンツ文脈接続の強化の見積条件を確認します。",
+                "意味的重複・分散の整理の見積条件を確認します。",
+                "ページ構造明確性の改善の見積条件を確認します。",
+                "コンテンツ構造一貫性の整備の見積条件を確認します。"
+            ]
+        },
+        "additional_check_section": {
+            "has_additional_check": true,
+            "items": [
+                {
+                    "type": "low_confidence",
+                    "message": "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                }
+            ]
+        },
+        "next_action": "改善対象と導入範囲を確認し、見積内容の確認へ進みます。"
+    },
+    "sass_bridge": {
+        "system": "SAIS",
+        "target_system": "SASS",
+        "project": "SEEN",
+        "target": {
+            "url": "https://life-escortist.com",
+            "domain": "life-escortist.com",
+            "checked_at": "2026-07-22T14:38:09+00:00"
+        },
+        "sass_scope_candidate": [
+            {
+                "scope_name": "SASS導入前改善 / SASS運用改善",
+                "priority": 1,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS導入前改善 / SASS運用改善をSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "SASS導入前改善 / 内部リンク改善",
+                "priority": 2,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS導入前改善 / 内部リンク改善をSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "SASS導入前改善 / SASS構造改善",
+                "priority": 3,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS導入前改善 / SASS構造改善をSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "SASS導入前改善 / 情報構造改善",
+                "priority": 4,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS導入前改善 / 情報構造改善をSASS導入候補範囲として整理します。"
+            }
+        ],
+        "priority_tasks": [
+            {
+                "task_id": "task_001",
+                "phase_id": "phase_001",
+                "task_name": "ページ構造明確性の確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ]
+            },
+            {
+                "task_id": "task_002",
+                "phase_id": "phase_001",
+                "task_name": "コンテンツ構造一貫性の確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ]
+            },
+            {
+                "task_id": "task_003",
+                "phase_id": "phase_001",
+                "task_name": "CTA配置の改善の実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ]
+            },
+            {
+                "task_id": "task_004",
+                "phase_id": "phase_002",
+                "task_name": "コンテンツ文脈接続の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ]
+            },
+            {
+                "task_id": "task_005",
+                "phase_id": "phase_002",
+                "task_name": "意味的重複・分散の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ]
+            },
+            {
+                "task_id": "task_006",
+                "phase_id": "phase_002",
+                "task_name": "コンテンツ文脈接続の強化の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ]
+            },
+            {
+                "task_id": "task_007",
+                "phase_id": "phase_003",
+                "task_name": "ページ構造明確性の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ]
+            },
+            {
+                "task_id": "task_008",
+                "phase_id": "phase_003",
+                "task_name": "コンテンツ構造一貫性の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ]
+            },
+            {
+                "task_id": "task_009",
+                "phase_id": "phase_003",
+                "task_name": "意味的重複・分散の整理の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ]
+            },
+            {
+                "task_id": "task_010",
+                "phase_id": "phase_003",
+                "task_name": "ページ構造明確性の改善の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ]
+            },
+            {
+                "task_id": "task_011",
+                "phase_id": "phase_004",
+                "task_name": "ページ構造明確性の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。"
+                ]
+            },
+            {
+                "task_id": "task_012",
+                "phase_id": "phase_004",
+                "task_name": "コンテンツ構造一貫性の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無"
+                ]
+            },
+            {
+                "task_id": "task_013",
+                "phase_id": "phase_004",
+                "task_name": "コンテンツ構造一貫性の整備の実施範囲確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無"
+                ]
+            }
+        ],
+        "recommended_modules": [
+            "Structure Module",
+            "Page Architecture Module"
+        ],
+        "operation_candidates": [
+            "ページ構造の定期確認",
+            "見出し構成の運用改善"
+        ],
+        "implementation_notes": [
+            "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+            "SASS導入前改善 / SASS運用改善の対象範囲を確認します。",
+            "SASS導入前改善 / 内部リンク改善の対象範囲を確認します。",
+            "SASS導入前改善 / SASS構造改善の対象範囲を確認します。",
+            "SASS導入前改善 / 情報構造改善の対象範囲を確認します。",
+            "CTA配置の改善の見積条件を確認します。",
+            "コンテンツ文脈接続の強化の見積条件を確認します。",
+            "意味的重複・分散の整理の見積条件を確認します。",
+            "ページ構造明確性の改善の見積条件を確認します。",
+            "コンテンツ構造一貫性の整備の見積条件を確認します。",
+            "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。"
+        ],
+        "additional_checks": [
+            {
+                "type": "low_confidence",
+                "message": "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                "target": "",
+                "impact": "needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "CTA数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "フォーム有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "予約導線有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "購入導線有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "画像容量",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "サーバー環境",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "表示速度改善範囲",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "対象ページ数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "内部リンク本数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "関連ページ数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "重複箇所",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "外部リンク有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "SNS接続有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "ページ構成",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "見出し数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "既存テンプレート",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "修正範囲",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "診断信頼度が70%未満のため、提案前に入力データの確認を推奨します。",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            }
+        ],
+        "metadata": {
+            "generated_at": "2026-07-22T15:02:58+00:00",
+            "bridge_name": "SAIS to SASS Bridge",
+            "source_engine": "SAIS",
+            "target_engine": "SASS",
+            "scope_candidate_count": 4,
+            "priority_task_count": 13,
+            "recommended_module_count": 2,
+            "additional_check_count": 19
+        }
+    },
+    "warnings": [
+        {
+            "code": "LOW_CONFIDENCE_INPUT",
+            "message": "Input confidence is below recommended level.",
+            "affected_items": [
+                "confidence"
+            ],
+            "impact": "proposal_needs_confirmation"
+        },
+        {
+            "code": "ADDITIONAL_CHECK_REQUIRED",
+            "message": "Additional check items are required before proposal confirmation.",
+            "affected_items": [
+                "additional_check_items"
+            ],
+            "impact": "additional_check_required"
+        },
+        {
+            "code": "ESTIMATE_NEEDS_CONFIRMATION",
+            "message": "Estimate items require human confirmation before pricing.",
+            "affected_items": [
+                "estimate_items"
+            ],
+            "impact": "estimate_needs_confirmation"
+        },
+        {
+            "code": "SASS_SCOPE_NEEDS_CONFIRMATION",
+            "message": "SASS scope candidate requires confirmation before implementation.",
+            "affected_items": [
+                "sass_scope_candidate"
+            ],
+            "impact": "sass_scope_needs_confirmation"
+        }
+    ],
+    "metadata": {
+        "generated_at": "2026-07-22T15:02:58+00:00",
+        "engine": "SAIS",
+        "engine_version": "1.0",
+        "source_engine": "SADS",
+        "target_engine": "SASS",
+        "document_set": "SAIS Documents Ver.1.0"
+    },
+    "processing": {
+        "classification": {
+            "proposal_input_summary": {
+                "total": 5,
+                "category_count": 3,
+                "high_impact_count": 3,
+                "high_difficulty_count": 2
+            },
+            "category_summary": {
+                "category_count": 3,
+                "total_items": 5,
+                "main_category": "relationship"
+            },
+            "impact_summary": {
+                "impact_count": 2,
+                "total_items": 5,
+                "main_impact": "high",
+                "has_high_impact": true
+            },
+            "difficulty_summary": {
+                "difficulty_count": 3,
+                "total_items": 5,
+                "main_difficulty": "high",
+                "has_high_difficulty": true
+            }
+        },
+        "priority_summary": {
+            "total": 5,
+            "top_count": 3,
+            "primary_indicator_id": "flow_04_cta_placement",
+            "primary_category": "flow"
+        },
+        "scope_summary": {
+            "total": 4,
+            "has_sass_pre_improvement": true,
+            "has_sass_operation_improvement": true,
+            "has_structure_improvement": true,
+            "has_flow_improvement": false
+        },
+        "additional_check_summary": {
+            "total": 1,
+            "has_additional_check": true,
+            "confidence_display": 39.1,
+            "warning_count": 2
+        }
+    }
+}
