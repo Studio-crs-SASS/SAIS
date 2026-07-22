@@ -939,7 +939,7 @@
             }
         ],
         "metadata": {
-            "generated_at": "2026-07-21T07:28:41+00:00",
+            "generated_at": "2026-07-22T09:27:16+00:00",
             "bridge_name": "SAIS to SASS Bridge",
             "source_engine": "SAIS",
             "target_engine": "SASS",
@@ -976,7 +976,7 @@
         }
     ],
     "metadata": {
-        "generated_at": "2026-07-21T07:28:41+00:00",
+        "generated_at": "2026-07-22T09:27:16+00:00",
         "engine": "SAIS",
         "engine_version": "1.0",
         "source_engine": "SADS",
