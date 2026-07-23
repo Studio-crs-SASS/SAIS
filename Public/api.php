@@ -30,6 +30,200 @@ require_once $basePath . '/Introduction/IntroductionPlanEngine.php';
 require_once $basePath . '/Bridge/SASSBridge.php';
 require_once $basePath . '/Output/OutputBuilder.php';
 
+function convertSadsOutputToSaisInputIfNeeded(array $input): array
+{
+    $isAlreadySaisInput =
+        isset($input['proposal_inputs']) ||
+        isset($input['priority_items']) ||
+        isset($input['recommended_scope']);
+
+    if ($isAlreadySaisInput) {
+        return $input;
+    }
+
+    $isSadsOutput =
+        (($input['system'] ?? '') === 'SADS') ||
+        isset($input['scores']) ||
+        isset($input['categories']) ||
+        isset($input['indicators']);
+
+    if (!$isSadsOutput) {
+        return $input;
+    }
+
+    $target = is_array($input['target'] ?? null) ? $input['target'] : [];
+    $scores = is_array($input['scores'] ?? null) ? $input['scores'] : [];
+    $categories = is_array($input['categories'] ?? null) ? $input['categories'] : [];
+    $indicators = is_array($input['indicators'] ?? null) ? $input['indicators'] : [];
+
+    $overallScore = $scores['display']['overall']
+        ?? $scores['overall']
+        ?? $input['score_display']
+        ?? null;
+
+    $domain = (string) ($target['domain'] ?? '');
+    $url = (string) ($target['url'] ?? '');
+
+    $proposalInputs = [];
+    $priorityItems = [];
+    $recommendedScope = [];
+    $additionalCheckItems = [];
+
+    foreach ($categories as $categoryKey => $category) {
+        if (!is_array($category)) {
+            continue;
+        }
+
+        $displayScore = $category['display_score']
+            ?? $category['score']
+            ?? null;
+
+        $label = (string) ($category['label'] ?? $categoryKey);
+
+        $proposalInputs[] = [
+            'id' => 'category_' . (string) $categoryKey,
+            'title' => strtoupper((string) $categoryKey) . ' improvement proposal',
+            'category' => (string) $categoryKey,
+            'summary' => $label . ' score: ' . (string) $displayScore,
+            'score' => $displayScore,
+            'source' => 'SADS categories',
+        ];
+
+        if (is_numeric($displayScore) && (float) $displayScore < 85) {
+            $priorityItems[] = [
+                'id' => 'priority_' . (string) $categoryKey,
+                'title' => strtoupper((string) $categoryKey) . ' enhancement',
+                'category' => (string) $categoryKey,
+                'priority' => (float) $displayScore < 70 ? 'high' : 'medium',
+                'impact' => 'proposal_quality',
+                'difficulty' => 'medium',
+                'reason' => 'Category score is below the preferred proposal threshold.',
+                'score' => $displayScore,
+            ];
+        }
+    }
+
+    foreach ($indicators as $index => $indicator) {
+        if (!is_array($indicator)) {
+            continue;
+        }
+
+        $indicatorId = (string) ($indicator['indicator_id'] ?? ('indicator_' . (string) $index));
+        $displayScore = $indicator['display_score']
+            ?? $indicator['score']
+            ?? null;
+
+        if (is_numeric($displayScore) && (float) $displayScore < 70) {
+            $priorityItems[] = [
+                'id' => 'priority_' . $indicatorId,
+                'title' => $indicatorId,
+                'category' => (string) ($indicator['category'] ?? 'diagnosis'),
+                'priority' => (float) $displayScore < 60 ? 'high' : 'medium',
+                'impact' => 'diagnosis_result',
+                'difficulty' => 'medium',
+                'reason' => (string) ($indicator['input_summary'] ?? 'Indicator score requires attention.'),
+                'score' => $displayScore,
+            ];
+        }
+    }
+
+    if ($recommendedScope === []) {
+        $recommendedScope = [
+            'Web structure enhancement',
+            'Content quality enhancement',
+            'Internal flow enhancement',
+            'SASS introduction preparation',
+        ];
+    }
+
+    if ($additionalCheckItems === []) {
+        $additionalCheckItems = [
+            [
+                'id' => 'check_cta',
+                'title' => 'CTA and conversion path check',
+                'reason' => 'Confirm whether the site has a clear inquiry or consultation route.',
+            ],
+            [
+                'id' => 'check_content_depth',
+                'title' => 'Content depth check',
+                'reason' => 'Confirm whether service explanation is enough for proposal generation.',
+            ],
+        ];
+    }
+
+    if ($proposalInputs === []) {
+        $proposalInputs[] = [
+            'id' => 'proposal_overall',
+            'title' => 'Overall web improvement proposal',
+            'category' => 'overall',
+            'summary' => 'SADS overall score: ' . (string) $overallScore,
+            'score' => $overallScore,
+            'source' => 'SADS overall score',
+        ];
+    }
+
+    if ($priorityItems === []) {
+        $priorityItems[] = [
+            'id' => 'priority_overall',
+            'title' => 'Overall improvement review',
+            'category' => 'overall',
+            'priority' => 'medium',
+            'impact' => 'proposal_quality',
+            'difficulty' => 'medium',
+            'reason' => 'Create introduction proposal from SADS diagnostic result.',
+            'score' => $overallScore,
+        ];
+    }
+
+    $clientSummaryParts = [];
+
+    if ($domain !== '') {
+        $clientSummaryParts[] = 'Target domain: ' . $domain;
+    }
+
+    if ($url !== '') {
+        $clientSummaryParts[] = 'Target URL: ' . $url;
+    }
+
+    if ($overallScore !== null) {
+        $clientSummaryParts[] = 'SADS overall score: ' . (string) $overallScore . ' / 100';
+    }
+
+    $clientSummary = implode(' / ', $clientSummaryParts);
+
+        return [
+        'system' => 'SADS',
+        'target_system' => 'SAIS',
+        'project' => 'SEEN',
+        'version' => '1.0',
+        'target' => [
+            'url' => $url,
+            'domain' => $domain,
+            'checked_at' => (string) ($target['checked_at'] ?? date(DATE_ATOM)),
+        ],
+        'proposal_inputs' => $proposalInputs,
+        'priority_items' => array_slice($priorityItems, 0, 12),
+        'client_summary' => $clientSummary,
+        'confidence' => is_array($input['confidence'] ?? null)
+            ? $input['confidence']
+            : [
+                'internal' => is_numeric($overallScore) ? round((float) $overallScore / 10, 1) : null,
+                'display' => $overallScore,
+                'level' => is_numeric($overallScore) && (float) $overallScore >= 80 ? 'high' : 'medium',
+                'missing_data_count' => 0,
+            ],
+        'recommended_scope' => $recommendedScope,
+        'additional_check_items' => $additionalCheckItems,
+        'metadata' => [
+            'generated_at' => date(DATE_ATOM),
+            'engine' => 'SAIS',
+            'source_engine' => 'SADS',
+            'adapter' => 'SADS output to SAIS input',
+            'adapter_version' => '1.2',
+        ],
+    ];
+}
+
 try {
     $appConfig = require $basePath . '/Config/app.php';
     $inputConfig = require $basePath . '/Config/input.php';
@@ -45,8 +239,10 @@ try {
     $outputBuilder = new OutputBuilder($outputConfig, $warningsConfig);
 
     $input = $receiver->receive();
+    $input = convertSadsOutputToSaisInputIfNeeded($input);
 
-    if ($input === []) {
+
+if ($input === []) {
         http_response_code(400);
 
         echo json_encode(

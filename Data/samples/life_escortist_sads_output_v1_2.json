@@ -1,0 +1,3239 @@
+{
+    "status": "success",
+    "system": "SADS",
+    "version": "1.0",
+    "project": "SEEN",
+    "target": {
+        "url": "https://life-escortist.com",
+        "domain": "life-escortist.com",
+        "checked_at": "2026-07-23T07:24:57+00:00"
+    },
+    "source": {
+        "system": "SWCS",
+        "version": "1.0.0",
+        "source_json_id": "",
+        "source_generated_at": "",
+        "input_status": "success"
+    },
+    "summary": {
+        "overall_display_score": 84,
+        "overall_internal_score": 8.4,
+        "level": {
+            "key": "good",
+            "label": "良好",
+            "summary": "基本的な構成は整っています。",
+            "min": 80,
+            "max": 84.9
+        },
+        "primary_strength": {
+            "key": "depth",
+            "name": "Depth",
+            "internal_score": 9.3,
+            "display_score": 93,
+            "level": {
+                "key": "excellent",
+                "label": "優秀",
+                "summary": "高い水準で整備されています。",
+                "min": 90,
+                "max": 94.9
+            },
+            "indicator_count": 5,
+            "summary": "Depth score is 93.0."
+        },
+        "primary_weakness": {
+            "key": "relationship",
+            "name": "Relationship",
+            "internal_score": 7.5,
+            "display_score": 75,
+            "level": {
+                "key": "needs_strengthening",
+                "label": "要強化",
+                "summary": "成果につなげるための強化が必要です。",
+                "min": 70,
+                "max": 79.9
+            },
+            "indicator_count": 6,
+            "summary": "Relationship score is 75.0."
+        },
+        "short_summary": "Overall score is 84.0. Level: 良好.",
+        "client_summary": "総合スコアは84.0点、評価は「良好」です。診断信頼度は83.8%です。"
+    },
+    "scores": {
+        "internal": {
+            "overall": 8.4,
+            "max": 10,
+            "min": 0
+        },
+        "display": {
+            "overall": 84,
+            "max": 100,
+            "min": 0
+        },
+        "weights": {
+            "depth": {
+                "internal_score": 9.3,
+                "weight": 0.3,
+                "weighted_score": 2.8
+            },
+            "volume": {
+                "internal_score": 8.3,
+                "weight": 0.2,
+                "weighted_score": 1.7
+            },
+            "relationship": {
+                "internal_score": 7.5,
+                "weight": 0.3,
+                "weighted_score": 2.3
+            },
+            "flow": {
+                "internal_score": 8.3,
+                "weight": 0.2,
+                "weighted_score": 1.7
+            }
+        }
+    },
+    "categories": {
+        "depth": {
+            "key": "depth",
+            "name": "Depth",
+            "internal_score": 9.3,
+            "display_score": 93,
+            "level": {
+                "key": "excellent",
+                "label": "優秀",
+                "summary": "高い水準で整備されています。",
+                "min": 90,
+                "max": 94.9
+            },
+            "indicator_count": 5,
+            "summary": "Depth score is 93.0."
+        },
+        "volume": {
+            "key": "volume",
+            "name": "Volume",
+            "internal_score": 8.3,
+            "display_score": 83,
+            "level": {
+                "key": "good",
+                "label": "良好",
+                "summary": "基本的な構成は整っています。",
+                "min": 80,
+                "max": 84.9
+            },
+            "indicator_count": 6,
+            "summary": "Volume score is 83.0."
+        },
+        "relationship": {
+            "key": "relationship",
+            "name": "Relationship",
+            "internal_score": 7.5,
+            "display_score": 75,
+            "level": {
+                "key": "needs_strengthening",
+                "label": "要強化",
+                "summary": "成果につなげるための強化が必要です。",
+                "min": 70,
+                "max": 79.9
+            },
+            "indicator_count": 6,
+            "summary": "Relationship score is 75.0."
+        },
+        "flow": {
+            "key": "flow",
+            "name": "Flow",
+            "internal_score": 8.3,
+            "display_score": 83,
+            "level": {
+                "key": "good",
+                "label": "良好",
+                "summary": "基本的な構成は整っています。",
+                "min": 80,
+                "max": 84.9
+            },
+            "indicator_count": 6,
+            "summary": "Flow score is 83.0."
+        }
+    },
+    "indicators": [
+        {
+            "category": "depth",
+            "indicator_id": "depth_01_heading_structure",
+            "indicator_name": "見出し階層構造",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.structure.headings",
+                "data.structure.heading_tree",
+                "data.validation.heading_errors"
+            ],
+            "input_summary": "Input sources: 3 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "depth",
+            "indicator_id": "depth_02_section_division",
+            "indicator_name": "セクション分割",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.structure.sections",
+                "data.content.text_blocks"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "depth",
+            "indicator_id": "depth_03_page_structure_clarity",
+            "indicator_name": "ページ構造明確性",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.structure.semantic_tags",
+                "data.structure.dom_summary",
+                "data.validation.structure_errors"
+            ],
+            "input_summary": "Input sources: 3 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "depth",
+            "indicator_id": "depth_04_information_hierarchy",
+            "indicator_name": "情報の階層整理",
+            "internal_score": 6.7,
+            "display_score": 67,
+            "recommendation": {
+                "key": "improve",
+                "label": "改善",
+                "sais_connection": true
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.structure.heading_tree",
+                "data.content.text_blocks",
+                "data.structure.content_order"
+            ],
+            "input_summary": "Input sources: 3 / Missing sources: 1",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "改善対象として優先的に確認してください。",
+            "confidence": {
+                "internal": 0.7,
+                "display": 66.7,
+                "level": {
+                    "key": "attention",
+                    "label": "注意",
+                    "min": 60,
+                    "max": 69.9
+                }
+            }
+        },
+        {
+            "category": "depth",
+            "indicator_id": "depth_05_content_structure_consistency",
+            "indicator_name": "コンテンツ構造一貫性",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.structure.page_patterns",
+                "data.structure.template_consistency"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "volume",
+            "indicator_id": "volume_01_text_amount",
+            "indicator_name": "テキスト総量",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.content.text_length",
+                "data.content.word_count"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "volume",
+            "indicator_id": "volume_02_information_density",
+            "indicator_name": "情報密度",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.content.text_blocks",
+                "data.content.unique_terms"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "volume",
+            "indicator_id": "volume_03_content_coverage",
+            "indicator_name": "コンテンツ網羅性",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.content.topic_coverage",
+                "data.structure.sections"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 1",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。",
+            "confidence": {
+                "internal": 0.5,
+                "display": 50,
+                "level": {
+                    "key": "needs_check",
+                    "label": "要確認",
+                    "min": 50,
+                    "max": 59.9
+                }
+            }
+        },
+        {
+            "category": "volume",
+            "indicator_id": "volume_04_unique_information",
+            "indicator_name": "独自情報量",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.content.unique_phrases",
+                "data.content.originality_signals"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "volume",
+            "indicator_id": "volume_05_freshness",
+            "indicator_name": "更新・鮮度",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.meta.last_modified",
+                "data.meta.published_dates",
+                "data.meta.sitemap_lastmod",
+                "data.content.date_mentions"
+            ],
+            "input_summary": "Input sources: 4 / Missing sources: 2",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。",
+            "confidence": {
+                "internal": 0.5,
+                "display": 50,
+                "level": {
+                    "key": "needs_check",
+                    "label": "要確認",
+                    "min": 50,
+                    "max": 59.9
+                }
+            }
+        },
+        {
+            "category": "volume",
+            "indicator_id": "volume_06_media_usage",
+            "indicator_name": "メディア活用量",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.media.images",
+                "data.media.videos",
+                "data.media.alt_texts"
+            ],
+            "input_summary": "Input sources: 3 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "relationship",
+            "indicator_id": "relationship_01_internal_link_relevance",
+            "indicator_name": "内部リンク関連性",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.links.internal",
+                "data.links.anchor_texts"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 1",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。",
+            "confidence": {
+                "internal": 0.5,
+                "display": 50,
+                "level": {
+                    "key": "needs_check",
+                    "label": "要確認",
+                    "min": 50,
+                    "max": 59.9
+                }
+            }
+        },
+        {
+            "category": "relationship",
+            "indicator_id": "relationship_02_context_connection",
+            "indicator_name": "コンテンツ文脈接続",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.content.text_blocks",
+                "data.content.related_terms"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "relationship",
+            "indicator_id": "relationship_03_page_story",
+            "indicator_name": "ページ間ストーリー性",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.links.internal",
+                "data.structure.page_order"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 1",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。",
+            "confidence": {
+                "internal": 0.5,
+                "display": 50,
+                "level": {
+                    "key": "needs_check",
+                    "label": "要確認",
+                    "min": 50,
+                    "max": 59.9
+                }
+            }
+        },
+        {
+            "category": "relationship",
+            "indicator_id": "relationship_04_keyword_consistency",
+            "indicator_name": "キーワード連動性",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.content.keywords",
+                "data.meta.title",
+                "data.meta.description"
+            ],
+            "input_summary": "Input sources: 3 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "relationship",
+            "indicator_id": "relationship_05_semantic_duplication_distribution",
+            "indicator_name": "意味的重複・分散",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.content.duplicate_blocks",
+                "data.content.semantic_groups"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "relationship",
+            "indicator_id": "relationship_06_external_connection",
+            "indicator_name": "外部接続性",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.links.external",
+                "data.links.social"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 1",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。",
+            "confidence": {
+                "internal": 0.5,
+                "display": 50,
+                "level": {
+                    "key": "needs_check",
+                    "label": "要確認",
+                    "min": 50,
+                    "max": 59.9
+                }
+            }
+        },
+        {
+            "category": "flow",
+            "indicator_id": "flow_01_navigation_design",
+            "indicator_name": "導線設計",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.structure.navigation",
+                "data.links.internal"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "flow",
+            "indicator_id": "flow_02_page_transition_structure",
+            "indicator_name": "ページ遷移構造",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.links.internal",
+                "data.structure.page_order"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 1",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。",
+            "confidence": {
+                "internal": 0.5,
+                "display": 50,
+                "level": {
+                    "key": "needs_check",
+                    "label": "要確認",
+                    "min": 50,
+                    "max": 59.9
+                }
+            }
+        },
+        {
+            "category": "flow",
+            "indicator_id": "flow_03_internal_link_flow",
+            "indicator_name": "内部リンク動線",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.links.internal",
+                "data.links.anchor_texts"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 1",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。",
+            "confidence": {
+                "internal": 0.5,
+                "display": 50,
+                "level": {
+                    "key": "needs_check",
+                    "label": "要確認",
+                    "min": 50,
+                    "max": 59.9
+                }
+            }
+        },
+        {
+            "category": "flow",
+            "indicator_id": "flow_04_cta_placement",
+            "indicator_name": "CTA配置",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.structure.cta",
+                "data.content.cta_texts"
+            ],
+            "input_summary": "Input sources: 2 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "flow",
+            "indicator_id": "flow_05_user_flow_consistency",
+            "indicator_name": "ユーザー導線一貫性",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.structure.navigation",
+                "data.structure.cta",
+                "data.links.internal"
+            ],
+            "input_summary": "Input sources: 3 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        },
+        {
+            "category": "flow",
+            "indicator_id": "flow_06_display_speed",
+            "indicator_name": "表示速度",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "priority_rank": null,
+            "input_sources": [
+                "data.performance",
+                "data.access.response",
+                "data.media.image_stats"
+            ],
+            "input_summary": "Input sources: 3 / Missing sources: 0",
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。",
+            "confidence": {
+                "internal": 1,
+                "display": 100,
+                "level": {
+                    "key": "very_stable",
+                    "label": "非常に安定",
+                    "min": 95,
+                    "max": 100
+                }
+            }
+        }
+    ],
+    "priority": [
+        {
+            "rank": 1,
+            "indicator_id": "flow_02_page_transition_structure",
+            "indicator_name": "ページ遷移構造",
+            "category": "flow",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。"
+        },
+        {
+            "rank": 2,
+            "indicator_id": "flow_03_internal_link_flow",
+            "indicator_name": "内部リンク動線",
+            "category": "flow",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。"
+        },
+        {
+            "rank": 3,
+            "indicator_id": "relationship_01_internal_link_relevance",
+            "indicator_name": "内部リンク関連性",
+            "category": "relationship",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。"
+        },
+        {
+            "rank": 4,
+            "indicator_id": "relationship_03_page_story",
+            "indicator_name": "ページ間ストーリー性",
+            "category": "relationship",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。"
+        },
+        {
+            "rank": 5,
+            "indicator_id": "relationship_06_external_connection",
+            "indicator_name": "外部接続性",
+            "category": "relationship",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。"
+        },
+        {
+            "rank": 6,
+            "indicator_id": "volume_03_content_coverage",
+            "indicator_name": "コンテンツ網羅性",
+            "category": "volume",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。"
+        },
+        {
+            "rank": 7,
+            "indicator_id": "volume_05_freshness",
+            "indicator_name": "更新・鮮度",
+            "category": "volume",
+            "internal_score": 5,
+            "display_score": 50,
+            "recommendation": {
+                "key": "priority_improve",
+                "label": "優先改善",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "優先改善項目として対応が必要です。"
+        },
+        {
+            "rank": 8,
+            "indicator_id": "depth_04_information_hierarchy",
+            "indicator_name": "情報の階層整理",
+            "category": "depth",
+            "internal_score": 6.7,
+            "display_score": 67,
+            "recommendation": {
+                "key": "improve",
+                "label": "改善",
+                "sais_connection": true
+            },
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "improvement_comment": "改善対象として優先的に確認してください。"
+        },
+        {
+            "rank": 9,
+            "indicator_id": "flow_01_navigation_design",
+            "indicator_name": "導線設計",
+            "category": "flow",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 10,
+            "indicator_id": "flow_04_cta_placement",
+            "indicator_name": "CTA配置",
+            "category": "flow",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 11,
+            "indicator_id": "flow_05_user_flow_consistency",
+            "indicator_name": "ユーザー導線一貫性",
+            "category": "flow",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 12,
+            "indicator_id": "flow_06_display_speed",
+            "indicator_name": "表示速度",
+            "category": "flow",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 13,
+            "indicator_id": "relationship_02_context_connection",
+            "indicator_name": "コンテンツ文脈接続",
+            "category": "relationship",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 14,
+            "indicator_id": "relationship_04_keyword_consistency",
+            "indicator_name": "キーワード連動性",
+            "category": "relationship",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 15,
+            "indicator_id": "relationship_05_semantic_duplication_distribution",
+            "indicator_name": "意味的重複・分散",
+            "category": "relationship",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 16,
+            "indicator_id": "depth_01_heading_structure",
+            "indicator_name": "見出し階層構造",
+            "category": "depth",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 17,
+            "indicator_id": "depth_02_section_division",
+            "indicator_name": "セクション分割",
+            "category": "depth",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 18,
+            "indicator_id": "depth_03_page_structure_clarity",
+            "indicator_name": "ページ構造明確性",
+            "category": "depth",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 19,
+            "indicator_id": "depth_05_content_structure_consistency",
+            "indicator_name": "コンテンツ構造一貫性",
+            "category": "depth",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 20,
+            "indicator_id": "volume_01_text_amount",
+            "indicator_name": "テキスト総量",
+            "category": "volume",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 21,
+            "indicator_id": "volume_02_information_density",
+            "indicator_name": "情報密度",
+            "category": "volume",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 22,
+            "indicator_id": "volume_04_unique_information",
+            "indicator_name": "独自情報量",
+            "category": "volume",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        },
+        {
+            "rank": 23,
+            "indicator_id": "volume_06_media_usage",
+            "indicator_name": "メディア活用量",
+            "category": "volume",
+            "internal_score": 10,
+            "display_score": 100,
+            "recommendation": {
+                "key": "maintain",
+                "label": "維持",
+                "sais_connection": false
+            },
+            "reason": "Required input sources were available.",
+            "improvement_comment": "現在の状態を維持してください。"
+        }
+    ],
+    "recommendations": [
+        {
+            "type": "priority_improve",
+            "target": "flow_02_page_transition_structure",
+            "target_category": "flow",
+            "target_indicator": "flow_02_page_transition_structure",
+            "title": "ページ遷移構造の整備",
+            "summary": "ページ遷移構造の整備が改善候補です。現在の内部スコアは 5.0 です。",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "action": "次に読むべきページへの遷移を整える。",
+            "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+            "impact": "high",
+            "difficulty": "low",
+            "priority_rank": 1,
+            "sais_connection": true
+        },
+        {
+            "type": "priority_improve",
+            "target": "flow_03_internal_link_flow",
+            "target_category": "flow",
+            "target_indicator": "flow_03_internal_link_flow",
+            "title": "内部リンク動線の改善",
+            "summary": "内部リンク動線の改善が改善候補です。現在の内部スコアは 5.0 です。",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "action": "本文中とページ下部の内部リンクを整備する。",
+            "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+            "impact": "high",
+            "difficulty": "low",
+            "priority_rank": 2,
+            "sais_connection": true
+        },
+        {
+            "type": "priority_improve",
+            "target": "relationship_01_internal_link_relevance",
+            "target_category": "relationship",
+            "target_indicator": "relationship_01_internal_link_relevance",
+            "title": "内部リンク関連性の整備",
+            "summary": "内部リンク関連性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "action": "関連するページ同士を適切なアンカーテキストで接続する。",
+            "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+            "impact": "high",
+            "difficulty": "low",
+            "priority_rank": 3,
+            "sais_connection": true
+        },
+        {
+            "type": "priority_improve",
+            "target": "relationship_03_page_story",
+            "target_category": "relationship",
+            "target_indicator": "relationship_03_page_story",
+            "title": "ページ間ストーリー性の整備",
+            "summary": "ページ間ストーリー性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "action": "ページ間の順序と接続を整え、訪問者が自然に進める流れを作る。",
+            "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+            "impact": "high",
+            "difficulty": "medium",
+            "priority_rank": 4,
+            "sais_connection": true
+        },
+        {
+            "type": "priority_improve",
+            "target": "relationship_06_external_connection",
+            "target_category": "relationship",
+            "target_indicator": "relationship_06_external_connection",
+            "title": "外部接続性の整備",
+            "summary": "外部接続性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+            "reason": "Some input sources were missing. Score was calculated from available data.",
+            "action": "SNS、外部プロフィール、関連メディアとの接続を整える。",
+            "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+            "impact": "high",
+            "difficulty": "low",
+            "priority_rank": 5,
+            "sais_connection": true
+        }
+    ],
+    "confidence": {
+        "internal": 0.8,
+        "display": 83.8,
+        "level": {
+            "key": "mostly_stable",
+            "label": "概ね安定",
+            "min": 80,
+            "max": 89.9
+        },
+        "input_completeness": 83.8,
+        "analysis_success_rate": 83.8,
+        "source_reliability": 83.8,
+        "data_freshness": 83.8,
+        "structural_coverage": 83.8,
+        "missing_data_count": 8,
+        "estimated_indicator_count": 0
+    },
+    "warnings": [],
+    "metadata": {
+        "generated_at": "2026-07-23T16:26:27+09:00",
+        "engine": "SADS",
+        "engine_version": "1.0",
+        "scoring_policy": "SADS Scoring Engine Ver.1.0",
+        "document_set": "SADS Documents Ver.1.0"
+    },
+    "report_data": {
+        "cover": {
+            "title": "SADS AI Diagnosis Report",
+            "system": "SADS",
+            "version": "1.0",
+            "project": "SEEN",
+            "target": {
+                "url": "https://life-escortist.com",
+                "domain": "life-escortist.com",
+                "checked_at": "2026-07-23T07:24:57+00:00"
+            },
+            "generated_at": "2026-07-23T16:26:27+09:00"
+        },
+        "executive_summary": {
+            "overall_display_score": 84,
+            "overall_internal_score": 8.4,
+            "level": {
+                "key": "good",
+                "label": "良好",
+                "summary": "基本的な構成は整っています。",
+                "min": 80,
+                "max": 84.9
+            },
+            "primary_strength": {
+                "key": "depth",
+                "name": "Depth",
+                "internal_score": 9.3,
+                "display_score": 93,
+                "level": {
+                    "key": "excellent",
+                    "label": "優秀",
+                    "summary": "高い水準で整備されています。",
+                    "min": 90,
+                    "max": 94.9
+                },
+                "indicator_count": 5,
+                "summary": "Depth score is 93.0."
+            },
+            "primary_weakness": {
+                "key": "relationship",
+                "name": "Relationship",
+                "internal_score": 7.5,
+                "display_score": 75,
+                "level": {
+                    "key": "needs_strengthening",
+                    "label": "要強化",
+                    "summary": "成果につなげるための強化が必要です。",
+                    "min": 70,
+                    "max": 79.9
+                },
+                "indicator_count": 6,
+                "summary": "Relationship score is 75.0."
+            },
+            "short_summary": "Overall score is 84.0. Level: 良好.",
+            "client_summary": "総合スコアは84.0点、評価は「良好」です。診断信頼度は83.8%です。"
+        },
+        "overall_score": {
+            "score": 84,
+            "internal_score": 8.4,
+            "level": {
+                "key": "good",
+                "label": "良好",
+                "summary": "基本的な構成は整っています。",
+                "min": 80,
+                "max": 84.9
+            },
+            "comment": "総合スコアは84.0点、評価は「良好」です。診断信頼度は83.8%です。",
+            "confidence": {
+                "internal": 0.8,
+                "display": 83.8,
+                "level": {
+                    "key": "mostly_stable",
+                    "label": "概ね安定",
+                    "min": 80,
+                    "max": 89.9
+                },
+                "input_completeness": 83.8,
+                "analysis_success_rate": 83.8,
+                "source_reliability": 83.8,
+                "data_freshness": 83.8,
+                "structural_coverage": 83.8,
+                "missing_data_count": 8,
+                "estimated_indicator_count": 0
+            }
+        },
+        "category_scores": {
+            "depth": {
+                "key": "depth",
+                "name": "Depth",
+                "internal_score": 9.3,
+                "display_score": 93,
+                "level": {
+                    "key": "excellent",
+                    "label": "優秀",
+                    "summary": "高い水準で整備されています。",
+                    "min": 90,
+                    "max": 94.9
+                },
+                "indicator_count": 5,
+                "summary": "Depth score is 93.0."
+            },
+            "volume": {
+                "key": "volume",
+                "name": "Volume",
+                "internal_score": 8.3,
+                "display_score": 83,
+                "level": {
+                    "key": "good",
+                    "label": "良好",
+                    "summary": "基本的な構成は整っています。",
+                    "min": 80,
+                    "max": 84.9
+                },
+                "indicator_count": 6,
+                "summary": "Volume score is 83.0."
+            },
+            "relationship": {
+                "key": "relationship",
+                "name": "Relationship",
+                "internal_score": 7.5,
+                "display_score": 75,
+                "level": {
+                    "key": "needs_strengthening",
+                    "label": "要強化",
+                    "summary": "成果につなげるための強化が必要です。",
+                    "min": 70,
+                    "max": 79.9
+                },
+                "indicator_count": 6,
+                "summary": "Relationship score is 75.0."
+            },
+            "flow": {
+                "key": "flow",
+                "name": "Flow",
+                "internal_score": 8.3,
+                "display_score": 83,
+                "level": {
+                    "key": "good",
+                    "label": "良好",
+                    "summary": "基本的な構成は整っています。",
+                    "min": 80,
+                    "max": 84.9
+                },
+                "indicator_count": 6,
+                "summary": "Flow score is 83.0."
+            }
+        },
+        "radar_chart": [
+            {
+                "category": "depth",
+                "label": "Depth",
+                "score": 93
+            },
+            {
+                "category": "volume",
+                "label": "Volume",
+                "score": 83
+            },
+            {
+                "category": "relationship",
+                "label": "Relationship",
+                "score": 75
+            },
+            {
+                "category": "flow",
+                "label": "Flow",
+                "score": 83
+            }
+        ],
+        "indicator_scores": [
+            {
+                "category": "depth",
+                "indicator_id": "depth_01_heading_structure",
+                "indicator_name": "見出し階層構造",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.headings",
+                    "data.structure.heading_tree",
+                    "data.validation.heading_errors"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "depth",
+                "indicator_id": "depth_02_section_division",
+                "indicator_name": "セクション分割",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.sections",
+                    "data.content.text_blocks"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "depth",
+                "indicator_id": "depth_03_page_structure_clarity",
+                "indicator_name": "ページ構造明確性",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.semantic_tags",
+                    "data.structure.dom_summary",
+                    "data.validation.structure_errors"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "depth",
+                "indicator_id": "depth_04_information_hierarchy",
+                "indicator_name": "情報の階層整理",
+                "internal_score": 6.7,
+                "display_score": 67,
+                "recommendation": {
+                    "key": "improve",
+                    "label": "改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.heading_tree",
+                    "data.content.text_blocks",
+                    "data.structure.content_order"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "改善対象として優先的に確認してください。",
+                "confidence": {
+                    "internal": 0.7,
+                    "display": 66.7,
+                    "level": {
+                        "key": "attention",
+                        "label": "注意",
+                        "min": 60,
+                        "max": 69.9
+                    }
+                }
+            },
+            {
+                "category": "depth",
+                "indicator_id": "depth_05_content_structure_consistency",
+                "indicator_name": "コンテンツ構造一貫性",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.page_patterns",
+                    "data.structure.template_consistency"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_01_text_amount",
+                "indicator_name": "テキスト総量",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.text_length",
+                    "data.content.word_count"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_02_information_density",
+                "indicator_name": "情報密度",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.text_blocks",
+                    "data.content.unique_terms"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_03_content_coverage",
+                "indicator_name": "コンテンツ網羅性",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.topic_coverage",
+                    "data.structure.sections"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_04_unique_information",
+                "indicator_name": "独自情報量",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.unique_phrases",
+                    "data.content.originality_signals"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_05_freshness",
+                "indicator_name": "更新・鮮度",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.meta.last_modified",
+                    "data.meta.published_dates",
+                    "data.meta.sitemap_lastmod",
+                    "data.content.date_mentions"
+                ],
+                "input_summary": "Input sources: 4 / Missing sources: 2",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_06_media_usage",
+                "indicator_name": "メディア活用量",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.media.images",
+                    "data.media.videos",
+                    "data.media.alt_texts"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_01_internal_link_relevance",
+                "indicator_name": "内部リンク関連性",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.internal",
+                    "data.links.anchor_texts"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_02_context_connection",
+                "indicator_name": "コンテンツ文脈接続",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.text_blocks",
+                    "data.content.related_terms"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_03_page_story",
+                "indicator_name": "ページ間ストーリー性",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.internal",
+                    "data.structure.page_order"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_04_keyword_consistency",
+                "indicator_name": "キーワード連動性",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.keywords",
+                    "data.meta.title",
+                    "data.meta.description"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_05_semantic_duplication_distribution",
+                "indicator_name": "意味的重複・分散",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.duplicate_blocks",
+                    "data.content.semantic_groups"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_06_external_connection",
+                "indicator_name": "外部接続性",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.external",
+                    "data.links.social"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_01_navigation_design",
+                "indicator_name": "導線設計",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.navigation",
+                    "data.links.internal"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_02_page_transition_structure",
+                "indicator_name": "ページ遷移構造",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.internal",
+                    "data.structure.page_order"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_03_internal_link_flow",
+                "indicator_name": "内部リンク動線",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.internal",
+                    "data.links.anchor_texts"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_04_cta_placement",
+                "indicator_name": "CTA配置",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.cta",
+                    "data.content.cta_texts"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_05_user_flow_consistency",
+                "indicator_name": "ユーザー導線一貫性",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.navigation",
+                    "data.structure.cta",
+                    "data.links.internal"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_06_display_speed",
+                "indicator_name": "表示速度",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.performance",
+                    "data.access.response",
+                    "data.media.image_stats"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            }
+        ],
+        "strengths": [
+            {
+                "category": "depth",
+                "indicator_id": "depth_01_heading_structure",
+                "indicator_name": "見出し階層構造",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.headings",
+                    "data.structure.heading_tree",
+                    "data.validation.heading_errors"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "depth",
+                "indicator_id": "depth_02_section_division",
+                "indicator_name": "セクション分割",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.sections",
+                    "data.content.text_blocks"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "depth",
+                "indicator_id": "depth_03_page_structure_clarity",
+                "indicator_name": "ページ構造明確性",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.semantic_tags",
+                    "data.structure.dom_summary",
+                    "data.validation.structure_errors"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "depth",
+                "indicator_id": "depth_05_content_structure_consistency",
+                "indicator_name": "コンテンツ構造一貫性",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.page_patterns",
+                    "data.structure.template_consistency"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_01_text_amount",
+                "indicator_name": "テキスト総量",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.text_length",
+                    "data.content.word_count"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_02_information_density",
+                "indicator_name": "情報密度",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.text_blocks",
+                    "data.content.unique_terms"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_04_unique_information",
+                "indicator_name": "独自情報量",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.unique_phrases",
+                    "data.content.originality_signals"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_06_media_usage",
+                "indicator_name": "メディア活用量",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.media.images",
+                    "data.media.videos",
+                    "data.media.alt_texts"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_02_context_connection",
+                "indicator_name": "コンテンツ文脈接続",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.text_blocks",
+                    "data.content.related_terms"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_04_keyword_consistency",
+                "indicator_name": "キーワード連動性",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.keywords",
+                    "data.meta.title",
+                    "data.meta.description"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_05_semantic_duplication_distribution",
+                "indicator_name": "意味的重複・分散",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.duplicate_blocks",
+                    "data.content.semantic_groups"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_01_navigation_design",
+                "indicator_name": "導線設計",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.navigation",
+                    "data.links.internal"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_04_cta_placement",
+                "indicator_name": "CTA配置",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.cta",
+                    "data.content.cta_texts"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_05_user_flow_consistency",
+                "indicator_name": "ユーザー導線一貫性",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.navigation",
+                    "data.structure.cta",
+                    "data.links.internal"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_06_display_speed",
+                "indicator_name": "表示速度",
+                "internal_score": 10,
+                "display_score": 100,
+                "recommendation": {
+                    "key": "maintain",
+                    "label": "維持",
+                    "sais_connection": false
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.performance",
+                    "data.access.response",
+                    "data.media.image_stats"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 0",
+                "reason": "Required input sources were available.",
+                "improvement_comment": "現在の状態を維持してください。",
+                "confidence": {
+                    "internal": 1,
+                    "display": 100,
+                    "level": {
+                        "key": "very_stable",
+                        "label": "非常に安定",
+                        "min": 95,
+                        "max": 100
+                    }
+                }
+            }
+        ],
+        "weaknesses": [
+            {
+                "category": "depth",
+                "indicator_id": "depth_04_information_hierarchy",
+                "indicator_name": "情報の階層整理",
+                "internal_score": 6.7,
+                "display_score": 67,
+                "recommendation": {
+                    "key": "improve",
+                    "label": "改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.structure.heading_tree",
+                    "data.content.text_blocks",
+                    "data.structure.content_order"
+                ],
+                "input_summary": "Input sources: 3 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "改善対象として優先的に確認してください。",
+                "confidence": {
+                    "internal": 0.7,
+                    "display": 66.7,
+                    "level": {
+                        "key": "attention",
+                        "label": "注意",
+                        "min": 60,
+                        "max": 69.9
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_03_content_coverage",
+                "indicator_name": "コンテンツ網羅性",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.content.topic_coverage",
+                    "data.structure.sections"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "volume",
+                "indicator_id": "volume_05_freshness",
+                "indicator_name": "更新・鮮度",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.meta.last_modified",
+                    "data.meta.published_dates",
+                    "data.meta.sitemap_lastmod",
+                    "data.content.date_mentions"
+                ],
+                "input_summary": "Input sources: 4 / Missing sources: 2",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_01_internal_link_relevance",
+                "indicator_name": "内部リンク関連性",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.internal",
+                    "data.links.anchor_texts"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_03_page_story",
+                "indicator_name": "ページ間ストーリー性",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.internal",
+                    "data.structure.page_order"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "relationship",
+                "indicator_id": "relationship_06_external_connection",
+                "indicator_name": "外部接続性",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.external",
+                    "data.links.social"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_02_page_transition_structure",
+                "indicator_name": "ページ遷移構造",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.internal",
+                    "data.structure.page_order"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            },
+            {
+                "category": "flow",
+                "indicator_id": "flow_03_internal_link_flow",
+                "indicator_name": "内部リンク動線",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "priority_rank": null,
+                "input_sources": [
+                    "data.links.internal",
+                    "data.links.anchor_texts"
+                ],
+                "input_summary": "Input sources: 2 / Missing sources: 1",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。",
+                "confidence": {
+                    "internal": 0.5,
+                    "display": 50,
+                    "level": {
+                        "key": "needs_check",
+                        "label": "要確認",
+                        "min": 50,
+                        "max": 59.9
+                    }
+                }
+            }
+        ],
+        "priority_ranking": [
+            {
+                "rank": 1,
+                "indicator_id": "flow_02_page_transition_structure",
+                "indicator_name": "ページ遷移構造",
+                "category": "flow",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "flow_03_internal_link_flow",
+                "indicator_name": "内部リンク動線",
+                "category": "flow",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            },
+            {
+                "rank": 3,
+                "indicator_id": "relationship_01_internal_link_relevance",
+                "indicator_name": "内部リンク関連性",
+                "category": "relationship",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            },
+            {
+                "rank": 4,
+                "indicator_id": "relationship_03_page_story",
+                "indicator_name": "ページ間ストーリー性",
+                "category": "relationship",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            },
+            {
+                "rank": 5,
+                "indicator_id": "relationship_06_external_connection",
+                "indicator_name": "外部接続性",
+                "category": "relationship",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            }
+        ],
+        "recommendations": [
+            {
+                "type": "priority_improve",
+                "target": "flow_02_page_transition_structure",
+                "target_category": "flow",
+                "target_indicator": "flow_02_page_transition_structure",
+                "title": "ページ遷移構造の整備",
+                "summary": "ページ遷移構造の整備が改善候補です。現在の内部スコアは 5.0 です。",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "action": "次に読むべきページへの遷移を整える。",
+                "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                "impact": "high",
+                "difficulty": "low",
+                "priority_rank": 1,
+                "sais_connection": true
+            },
+            {
+                "type": "priority_improve",
+                "target": "flow_03_internal_link_flow",
+                "target_category": "flow",
+                "target_indicator": "flow_03_internal_link_flow",
+                "title": "内部リンク動線の改善",
+                "summary": "内部リンク動線の改善が改善候補です。現在の内部スコアは 5.0 です。",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "action": "本文中とページ下部の内部リンクを整備する。",
+                "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                "impact": "high",
+                "difficulty": "low",
+                "priority_rank": 2,
+                "sais_connection": true
+            },
+            {
+                "type": "priority_improve",
+                "target": "relationship_01_internal_link_relevance",
+                "target_category": "relationship",
+                "target_indicator": "relationship_01_internal_link_relevance",
+                "title": "内部リンク関連性の整備",
+                "summary": "内部リンク関連性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "action": "関連するページ同士を適切なアンカーテキストで接続する。",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "low",
+                "priority_rank": 3,
+                "sais_connection": true
+            },
+            {
+                "type": "priority_improve",
+                "target": "relationship_03_page_story",
+                "target_category": "relationship",
+                "target_indicator": "relationship_03_page_story",
+                "title": "ページ間ストーリー性の整備",
+                "summary": "ページ間ストーリー性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "action": "ページ間の順序と接続を整え、訪問者が自然に進める流れを作る。",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "medium",
+                "priority_rank": 4,
+                "sais_connection": true
+            },
+            {
+                "type": "priority_improve",
+                "target": "relationship_06_external_connection",
+                "target_category": "relationship",
+                "target_indicator": "relationship_06_external_connection",
+                "title": "外部接続性の整備",
+                "summary": "外部接続性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "action": "SNS、外部プロフィール、関連メディアとの接続を整える。",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "low",
+                "priority_rank": 5,
+                "sais_connection": true
+            }
+        ],
+        "confidence": {
+            "internal": 0.8,
+            "display": 83.8,
+            "level": {
+                "key": "mostly_stable",
+                "label": "概ね安定",
+                "min": 80,
+                "max": 89.9
+            },
+            "input_completeness": 83.8,
+            "analysis_success_rate": 83.8,
+            "source_reliability": 83.8,
+            "data_freshness": 83.8,
+            "structural_coverage": 83.8,
+            "missing_data_count": 8,
+            "estimated_indicator_count": 0
+        },
+        "next_action": {
+            "flow": [
+                "SADS Report",
+                "改善対象確認",
+                "SAIS導入提案生成",
+                "SASS導入検討"
+            ],
+            "message": "診断結果を確認し、優先改善項目をもとに次の提案工程へ進みます。"
+        }
+    },
+    "sais_bridge": {
+        "system": "SADS",
+        "target_system": "SAIS",
+        "project": "SEEN",
+        "version": "1.0",
+        "target": {
+            "url": "https://life-escortist.com",
+            "domain": "life-escortist.com",
+            "checked_at": "2026-07-23T07:24:57+00:00"
+        },
+        "proposal_inputs": [
+            {
+                "indicator_id": "flow_02_page_transition_structure",
+                "category": "flow",
+                "title": "ページ遷移構造の整備",
+                "summary": "ページ遷移構造の整備が改善候補です。現在の内部スコアは 5.0 です。",
+                "action": "次に読むべきページへの遷移を整える。",
+                "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                "impact": "high",
+                "difficulty": "low",
+                "priority_rank": 1,
+                "recommended_service_scope": "SASS導入前改善 / SASS運用改善"
+            },
+            {
+                "indicator_id": "flow_03_internal_link_flow",
+                "category": "flow",
+                "title": "内部リンク動線の改善",
+                "summary": "内部リンク動線の改善が改善候補です。現在の内部スコアは 5.0 です。",
+                "action": "本文中とページ下部の内部リンクを整備する。",
+                "expected_effect": "訪問者が迷わず次の行動へ進みやすくなります。",
+                "impact": "high",
+                "difficulty": "low",
+                "priority_rank": 2,
+                "recommended_service_scope": "SASS導入前改善 / SASS運用改善"
+            },
+            {
+                "indicator_id": "relationship_01_internal_link_relevance",
+                "category": "relationship",
+                "title": "内部リンク関連性の整備",
+                "summary": "内部リンク関連性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+                "action": "関連するページ同士を適切なアンカーテキストで接続する。",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "low",
+                "priority_rank": 3,
+                "recommended_service_scope": "SASS導入前改善 / 内部リンク改善"
+            },
+            {
+                "indicator_id": "relationship_03_page_story",
+                "category": "relationship",
+                "title": "ページ間ストーリー性の整備",
+                "summary": "ページ間ストーリー性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+                "action": "ページ間の順序と接続を整え、訪問者が自然に進める流れを作る。",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "medium",
+                "priority_rank": 4,
+                "recommended_service_scope": "SASS導入前改善 / 内部リンク改善"
+            },
+            {
+                "indicator_id": "relationship_06_external_connection",
+                "category": "relationship",
+                "title": "外部接続性の整備",
+                "summary": "外部接続性の整備が改善候補です。現在の内部スコアは 5.0 です。",
+                "action": "SNS、外部プロフィール、関連メディアとの接続を整える。",
+                "expected_effect": "情報同士のつながりが強まり、サイト全体の理解が深まります。",
+                "impact": "high",
+                "difficulty": "low",
+                "priority_rank": 5,
+                "recommended_service_scope": "SASS導入前改善 / 内部リンク改善"
+            }
+        ],
+        "priority_items": [
+            {
+                "rank": 1,
+                "indicator_id": "flow_02_page_transition_structure",
+                "indicator_name": "ページ遷移構造",
+                "category": "flow",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "flow_03_internal_link_flow",
+                "indicator_name": "内部リンク動線",
+                "category": "flow",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            },
+            {
+                "rank": 3,
+                "indicator_id": "relationship_01_internal_link_relevance",
+                "indicator_name": "内部リンク関連性",
+                "category": "relationship",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            },
+            {
+                "rank": 4,
+                "indicator_id": "relationship_03_page_story",
+                "indicator_name": "ページ間ストーリー性",
+                "category": "relationship",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            },
+            {
+                "rank": 5,
+                "indicator_id": "relationship_06_external_connection",
+                "indicator_name": "外部接続性",
+                "category": "relationship",
+                "internal_score": 5,
+                "display_score": 50,
+                "recommendation": {
+                    "key": "priority_improve",
+                    "label": "優先改善",
+                    "sais_connection": true
+                },
+                "reason": "Some input sources were missing. Score was calculated from available data.",
+                "improvement_comment": "優先改善項目として対応が必要です。"
+            }
+        ],
+        "client_summary": "総合スコアは84.0点、評価は「良好」です。診断信頼度は83.8%です。",
+        "confidence": {
+            "internal": 0.8,
+            "display": 83.8,
+            "level": {
+                "key": "mostly_stable",
+                "label": "概ね安定",
+                "min": 80,
+                "max": 89.9
+            },
+            "input_completeness": 83.8,
+            "analysis_success_rate": 83.8,
+            "source_reliability": 83.8,
+            "data_freshness": 83.8,
+            "structural_coverage": 83.8,
+            "missing_data_count": 8,
+            "estimated_indicator_count": 0
+        },
+        "recommended_scope": [
+            "SASS導入前改善 / SASS運用改善",
+            "SASS導入前改善 / 内部リンク改善"
+        ],
+        "additional_check_items": [],
+        "metadata": {
+            "generated_at": "2026-07-23T16:26:27+09:00",
+            "source_engine": "SADS",
+            "target_engine": "SAIS"
+        }
+    }
+}
