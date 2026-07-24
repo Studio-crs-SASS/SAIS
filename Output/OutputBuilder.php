@@ -73,6 +73,9 @@ final class OutputBuilder
             $additionalCheckItems
         );
         
+        $estimate = $this->attachSassEstimateConnection($estimate, $sassReverseSummary);
+        $introductionPlan = $this->attachSassOperationConnection($introductionPlan, $sassReverseSummary);
+
         $proposalData = $this->proposalDataBuilder->build(
             $target,
             $proposal,
@@ -282,6 +285,87 @@ final class OutputBuilder
             'next_step_label' => 'SASS導入前確認へ進む',
             'next_step_message' => '追加確認項目、導入候補モジュール、月次運用候補を確認し、SASS導入提案・見積・顧問運用へ接続します。',
         ];
+    }
+
+    /**
+     * @param array<string, mixed> $estimate
+     * @param array<string, mixed> $sassReverseSummary
+     * @return array<string, mixed>
+     */
+    private function attachSassEstimateConnection(array $estimate, array $sassReverseSummary): array
+    {
+        $bridgeCounts = is_array($sassReverseSummary['bridge_counts'] ?? null)
+            ? $sassReverseSummary['bridge_counts']
+            : [];
+
+        $additionalCheckCount = (int) ($bridgeCounts['additional_check_count'] ?? 0);
+        $recommendedModuleCount = (int) ($bridgeCounts['recommended_module_count'] ?? 0);
+        $operationCandidateCount = (int) ($bridgeCounts['operation_candidate_count'] ?? 0);
+
+        $estimate['sass_estimate_connection'] = [
+            'section_label' => 'SASS導入前確認',
+            'section_status' => (string) ($sassReverseSummary['summary_status'] ?? 'SASS接続情報未確認'),
+            'target_system' => (string) ($sassReverseSummary['target_system'] ?? 'SASS'),
+            'additional_check_count' => $additionalCheckCount,
+            'recommended_module_count' => $recommendedModuleCount,
+            'operation_candidate_count' => $operationCandidateCount,
+            'estimate_connection' => (string) ($sassReverseSummary['estimate_connection'] ?? ''),
+            'pricing_scope_note' => '正式見積では、SASSへ渡す追加確認項目、導入候補モジュール、月次運用候補を確認し、初期導入範囲と顧問運用範囲を整理します。',
+            'business_summary' => 'SASS導入前確認'
+                . $additionalCheckCount
+                . '件、導入候補モジュール'
+                . $recommendedModuleCount
+                . '件、月次運用候補'
+                . $operationCandidateCount
+                . '件をもとに、見積前提と導入範囲を整理します。',
+            'next_step_label' => '見積前確認へ進む',
+            'next_step_message' => '対象ページ、修正範囲、追加確認項目、導入候補モジュールを確認し、正式見積へ接続します。',
+        ];
+
+        return $estimate;
+    }
+
+    /**
+     * @param array<string, mixed> $introductionPlan
+     * @param array<string, mixed> $sassReverseSummary
+     * @return array<string, mixed>
+     */
+    private function attachSassOperationConnection(array $introductionPlan, array $sassReverseSummary): array
+    {
+        $bridgeCounts = is_array($sassReverseSummary['bridge_counts'] ?? null)
+            ? $sassReverseSummary['bridge_counts']
+            : [];
+
+        $priorityTaskCount = (int) ($bridgeCounts['priority_task_count'] ?? 0);
+        $recommendedModuleCount = (int) ($bridgeCounts['recommended_module_count'] ?? 0);
+        $operationCandidateCount = (int) ($bridgeCounts['operation_candidate_count'] ?? 0);
+        $additionalCheckCount = (int) ($bridgeCounts['additional_check_count'] ?? 0);
+
+        $introductionPlan['sass_operation_connection'] = [
+            'section_label' => 'SASS導入後運用接続',
+            'section_status' => (string) ($sassReverseSummary['summary_status'] ?? 'SASS接続情報未確認'),
+            'target_system' => (string) ($sassReverseSummary['target_system'] ?? 'SASS'),
+            'priority_task_count' => $priorityTaskCount,
+            'recommended_module_count' => $recommendedModuleCount,
+            'operation_candidate_count' => $operationCandidateCount,
+            'additional_check_count' => $additionalCheckCount,
+            'advisory_connection' => (string) ($sassReverseSummary['advisory_connection'] ?? ''),
+            'sass_growth_loop_connection' => (string) ($sassReverseSummary['sass_growth_loop_connection'] ?? ''),
+            'monthly_operation_note' => 'SASS導入後は、月次確認・改善提案・追加確認・モジュール拡張候補を継続的に整理します。',
+            'business_summary' => '優先タスク'
+                . $priorityTaskCount
+                . '件、導入候補モジュール'
+                . $recommendedModuleCount
+                . '件、月次運用候補'
+                . $operationCandidateCount
+                . '件、追加確認項目'
+                . $additionalCheckCount
+                . '件をもとに、SASS導入後の顧問運用へ接続します。',
+            'next_step_label' => (string) ($sassReverseSummary['next_step_label'] ?? 'SASS導入前確認へ進む'),
+            'next_step_message' => (string) ($sassReverseSummary['next_step_message'] ?? ''),
+        ];
+
+        return $introductionPlan;
     }
 
     /**
