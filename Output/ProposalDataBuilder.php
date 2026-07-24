@@ -30,6 +30,7 @@ final class ProposalDataBuilder
      * @param array<string, mixed> $introductionPlan
      * @param array<string, mixed> $sassScopeCandidate
      * @param array<int, mixed> $additionalCheckItems
+     * @param array<string, mixed> $sassReverseSummary
      * @return array<string, mixed>
      */
     public function build(
@@ -38,7 +39,8 @@ final class ProposalDataBuilder
         array $estimate,
         array $introductionPlan,
         array $sassScopeCandidate,
-        array $additionalCheckItems = []
+        array $additionalCheckItems = [],
+        array $sassReverseSummary = []
     ): array {
         return [
             'cover' => $this->buildCover($target, $proposal),
@@ -51,6 +53,7 @@ final class ProposalDataBuilder
             'introduction_plan_section' => $this->buildIntroductionPlanSection($introductionPlan),
             'sass_scope_section' => $this->buildSassScopeSection($sassScopeCandidate),
             'additional_check_section' => $this->buildAdditionalCheckSection($additionalCheckItems),
+            'sass_connection_section' => $this->buildSassConnectionSection($sassReverseSummary),
             'next_action' => $proposal['suggested_next_step'] ?? '改善対象と導入範囲を確認し、見積内容の確認へ進みます。',
         ];
     }
@@ -227,6 +230,46 @@ final class ProposalDataBuilder
         return [
             'has_additional_check' => count($items) > 0,
             'items' => $items,
+        ];
+    }
+
+    /**
+     * @param array<string, mixed> $sassReverseSummary
+     * @return array<string, mixed>
+     */
+    private function buildSassConnectionSection(array $sassReverseSummary): array
+    {
+        $bridgeCounts = is_array($sassReverseSummary['bridge_counts'] ?? null)
+            ? $sassReverseSummary['bridge_counts']
+            : [];
+
+        $saisVisibleCounts = is_array($sassReverseSummary['sais_visible_counts'] ?? null)
+            ? $sassReverseSummary['sais_visible_counts']
+            : [];
+
+        return [
+            'section_label' => 'SASS接続セクション',
+            'section_status' => (string) ($sassReverseSummary['summary_status'] ?? 'SASS接続情報未確認'),
+            'target_system' => (string) ($sassReverseSummary['target_system'] ?? 'SASS'),
+            'source_system' => (string) ($sassReverseSummary['source_system'] ?? 'SAIS'),
+            'business_summary' => (string) ($sassReverseSummary['business_summary'] ?? ''),
+            'proposal_connection' => (string) ($sassReverseSummary['proposal_connection'] ?? ''),
+            'estimate_connection' => (string) ($sassReverseSummary['estimate_connection'] ?? ''),
+            'advisory_connection' => (string) ($sassReverseSummary['advisory_connection'] ?? ''),
+            'sass_growth_loop_connection' => (string) ($sassReverseSummary['sass_growth_loop_connection'] ?? ''),
+            'bridge_counts' => [
+                'priority_task_count' => (int) ($bridgeCounts['priority_task_count'] ?? 0),
+                'recommended_module_count' => (int) ($bridgeCounts['recommended_module_count'] ?? 0),
+                'operation_candidate_count' => (int) ($bridgeCounts['operation_candidate_count'] ?? 0),
+                'additional_check_count' => (int) ($bridgeCounts['additional_check_count'] ?? 0),
+            ],
+            'sais_visible_counts' => [
+                'additional_check_items_count' => (int) ($saisVisibleCounts['additional_check_items_count'] ?? 0),
+                'scope_recommended_module_count' => (int) ($saisVisibleCounts['scope_recommended_module_count'] ?? 0),
+                'scope_operation_candidate_count' => (int) ($saisVisibleCounts['scope_operation_candidate_count'] ?? 0),
+            ],
+            'next_step_label' => (string) ($sassReverseSummary['next_step_label'] ?? 'SASS導入前確認へ進む'),
+            'next_step_message' => (string) ($sassReverseSummary['next_step_message'] ?? ''),
         ];
     }
 }

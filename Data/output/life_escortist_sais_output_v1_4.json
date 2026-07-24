@@ -1,0 +1,1996 @@
+{
+    "status": "success",
+    "system": "SAIS",
+    "version": "1.0",
+    "project": "SEEN",
+    "target": {
+        "url": "https://life-escortist.com",
+        "domain": "life-escortist.com",
+        "checked_at": "2026-07-23T07:24:57+00:00"
+    },
+    "source": {
+        "system": "SADS",
+        "target_system": "SAIS",
+        "version": "1.0"
+    },
+    "proposal": {
+        "title": "情報量と情報接続を組み合わせた導入提案",
+        "summary": "コンテンツを中心に、導入提案を整理します。",
+        "diagnosis_connection": "SADS診断で確認された改善優先項目をもとに、導入提案を整理します。",
+        "priority_reason": "コンテンツの優先度が高いため、提案の中心として扱います。",
+        "recommended_actions": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "unknown_1",
+                "category": "depth",
+                "title": "DEPTH improvement proposal",
+                "action": "DEPTH improvement proposalを確認し、必要な改善対応を行います。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": ""
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "unknown_2",
+                "category": "volume",
+                "title": "VOLUME improvement proposal",
+                "action": "VOLUME improvement proposalを確認し、必要な改善対応を行います。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": ""
+            },
+            {
+                "priority_rank": 3,
+                "indicator_id": "unknown_3",
+                "category": "relationship",
+                "title": "RELATIONSHIP improvement proposal",
+                "action": "RELATIONSHIP improvement proposalを確認し、必要な改善対応を行います。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": ""
+            },
+            {
+                "priority_rank": 4,
+                "indicator_id": "unknown_4",
+                "category": "flow",
+                "title": "FLOW improvement proposal",
+                "action": "FLOW improvement proposalを確認し、必要な改善対応を行います。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": ""
+            }
+        ],
+        "expected_effects": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "unknown_1",
+                "category": "depth",
+                "title": "DEPTH improvement proposal",
+                "expected_effect": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "unknown_2",
+                "category": "volume",
+                "title": "VOLUME improvement proposal",
+                "expected_effect": "情報量が増え、サービス内容や判断材料が伝わりやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            },
+            {
+                "priority_rank": 3,
+                "indicator_id": "unknown_3",
+                "category": "relationship",
+                "title": "RELATIONSHIP improvement proposal",
+                "expected_effect": "ページ同士の接続が整理され、サイト全体の理解が深まりやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            },
+            {
+                "priority_rank": 4,
+                "indicator_id": "unknown_4",
+                "category": "flow",
+                "title": "FLOW improvement proposal",
+                "expected_effect": "訪問者が次の行動へ進みやすくなり、問い合わせや予約につながりやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            }
+        ],
+        "scope_summary": "今回の提案では、Web structure enhancement、Content quality enhancement、Internal flow enhancement、SASS introduction preparationを中心範囲とします。",
+        "confidence_note": "一部確認を行うことで、より安全に提案へ進めます。",
+        "additional_check_note": "現時点で大きな追加確認項目はありません。",
+        "suggested_next_step": "改善対象と導入範囲を確認し、見積内容の確認へ進みます。",
+        "client_message": "診断結果をもとに、優先的に改善すべき項目を整理しました。まずは改善対象と導入範囲を確認する提案です。 現時点で大きな追加確認項目はありません。",
+        "summary_data": {
+            "action_summary": {
+                "total": 4,
+                "high_impact_count": 0,
+                "high_difficulty_count": 0,
+                "primary_action_title": "DEPTH improvement proposal"
+            },
+            "effect_summary": {
+                "total": 4,
+                "primary_indicator_id": "unknown_1",
+                "primary_effect": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+                "high_impact_count": 0
+            },
+            "combined_effect_message": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。 情報量が増え、サービス内容や判断材料が伝わりやすくなります。 ページ同士の接続が整理され、サイト全体の理解が深まりやすくなります。"
+        }
+    },
+    "estimate": {
+        "estimate_summary": "今回の見積項目は、SADS診断で確認された優先改善項目をもとに整理しています。 見積項目は4件です。",
+        "estimate_items": [
+            {
+                "item_id": "estimate_item_001",
+                "source_indicator_id": "unknown_1",
+                "category": "depth",
+                "title": "DEPTH improvement proposal",
+                "work_item": "DEPTH improvement proposalに関する改善作業",
+                "scope": "Web structure enhancement",
+                "priority_rank": 1,
+                "impact": "medium",
+                "difficulty": "medium",
+                "expected_effect": "",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲"
+                ],
+                "pricing_status": {
+                    "key": "scope_needs_confirmation",
+                    "label": "範囲確認後に金額設定",
+                    "needs_human_confirmation": true
+                }
+            },
+            {
+                "item_id": "estimate_item_002",
+                "source_indicator_id": "unknown_2",
+                "category": "volume",
+                "title": "VOLUME improvement proposal",
+                "work_item": "VOLUME improvement proposalに関する改善作業",
+                "scope": "Web structure enhancement",
+                "priority_rank": 2,
+                "impact": "medium",
+                "difficulty": "medium",
+                "expected_effect": "",
+                "required_check": [
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度"
+                ],
+                "pricing_status": {
+                    "key": "scope_needs_confirmation",
+                    "label": "範囲確認後に金額設定",
+                    "needs_human_confirmation": true
+                }
+            },
+            {
+                "item_id": "estimate_item_003",
+                "source_indicator_id": "unknown_3",
+                "category": "relationship",
+                "title": "RELATIONSHIP improvement proposal",
+                "work_item": "RELATIONSHIP improvement proposalに関する改善作業",
+                "scope": "Web structure enhancement",
+                "priority_rank": 3,
+                "impact": "medium",
+                "difficulty": "medium",
+                "expected_effect": "",
+                "required_check": [
+                    "対象ページ数",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無"
+                ],
+                "pricing_status": {
+                    "key": "scope_needs_confirmation",
+                    "label": "範囲確認後に金額設定",
+                    "needs_human_confirmation": true
+                }
+            },
+            {
+                "item_id": "estimate_item_004",
+                "source_indicator_id": "unknown_4",
+                "category": "flow",
+                "title": "FLOW improvement proposal",
+                "work_item": "FLOW improvement proposalに関する改善作業",
+                "scope": "Web structure enhancement",
+                "priority_rank": 4,
+                "impact": "medium",
+                "difficulty": "medium",
+                "expected_effect": "",
+                "required_check": [
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ],
+                "pricing_status": {
+                    "key": "scope_needs_confirmation",
+                    "label": "範囲確認後に金額設定",
+                    "needs_human_confirmation": true
+                }
+            }
+        ],
+        "scope": [
+            {
+                "scope_id": "estimate_scope_001",
+                "scope_name": "Web structure enhancement",
+                "pricing_status": "scope_needs_confirmation"
+            },
+            {
+                "scope_id": "estimate_scope_002",
+                "scope_name": "Content quality enhancement",
+                "pricing_status": "scope_needs_confirmation"
+            },
+            {
+                "scope_id": "estimate_scope_003",
+                "scope_name": "Internal flow enhancement",
+                "pricing_status": "scope_needs_confirmation"
+            },
+            {
+                "scope_id": "estimate_scope_004",
+                "scope_name": "SASS introduction preparation",
+                "pricing_status": "scope_needs_confirmation"
+            }
+        ],
+        "priority": [
+            {
+                "rank": 1,
+                "indicator_id": "unknown_1",
+                "indicator_name": "",
+                "category": "volume"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "unknown_2",
+                "indicator_name": "",
+                "category": "relationship"
+            },
+            {
+                "rank": 3,
+                "indicator_id": "unknown_3",
+                "indicator_name": "",
+                "category": "flow"
+            },
+            {
+                "rank": 4,
+                "indicator_id": "unknown_4",
+                "indicator_name": "",
+                "category": "depth"
+            },
+            {
+                "rank": 5,
+                "indicator_id": "unknown_5",
+                "indicator_name": "",
+                "category": "volume"
+            },
+            {
+                "rank": 6,
+                "indicator_id": "unknown_6",
+                "indicator_name": "",
+                "category": "volume"
+            },
+            {
+                "rank": 7,
+                "indicator_id": "unknown_7",
+                "indicator_name": "",
+                "category": "relationship"
+            },
+            {
+                "rank": 8,
+                "indicator_id": "unknown_8",
+                "indicator_name": "",
+                "category": "relationship"
+            },
+            {
+                "rank": 9,
+                "indicator_id": "unknown_9",
+                "indicator_name": "",
+                "category": "relationship"
+            },
+            {
+                "rank": 10,
+                "indicator_id": "unknown_10",
+                "indicator_name": "",
+                "category": "flow"
+            },
+            {
+                "rank": 11,
+                "indicator_id": "unknown_11",
+                "indicator_name": "",
+                "category": "flow"
+            }
+        ],
+        "difficulty_summary": "通常改善項目が中心で、対象範囲の確認後に見積を確定しやすい構成です。",
+        "impact_summary": "複数の改善を組み合わせることで、サイト全体の分かりやすさを高める構成です。",
+        "required_check": [
+            "対象ページ数",
+            "ページ構成",
+            "見出し数",
+            "既存テンプレート",
+            "修正範囲",
+            "追加文章量",
+            "原稿作成有無",
+            "画像点数",
+            "動画有無",
+            "事例数",
+            "更新頻度",
+            "内部リンク本数",
+            "関連ページ数",
+            "重複箇所",
+            "外部リンク有無",
+            "SNS接続有無",
+            "CTA数",
+            "フォーム有無",
+            "予約導線有無",
+            "購入導線有無",
+            "画像容量",
+            "サーバー環境",
+            "表示速度改善範囲"
+        ],
+        "pricing_note": "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。",
+        "summary_data": {
+            "total_items": 4,
+            "required_check_count": 23,
+            "needs_confirmation_count": 4,
+            "main_difficulty": "medium",
+            "main_impact": "medium"
+        }
+    },
+    "introduction_plan": {
+        "plan_summary": "SADS診断結果をもとに、優先改善項目から段階的に導入計画を整理します。 提案テーマは「情報量と情報接続を組み合わせた導入提案」です。導入フェーズは4件、タスクは13件です。",
+        "phases": [
+            {
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "scope": "SASS導入前改善",
+                "tasks": [
+                    "DEPTH improvement proposalの実施範囲確認",
+                    "VOLUME improvement proposalの実施範囲確認",
+                    "RELATIONSHIP improvement proposalの実施範囲確認",
+                    "FLOW improvement proposalの実施範囲確認"
+                ],
+                "priority": "high",
+                "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ],
+                "sass_connection": "SASS導入前改善"
+            },
+            {
+                "phase_id": "phase_002",
+                "phase_name": "導入前改善",
+                "scope": "SASS導入前改善",
+                "tasks": [
+                    "見出し構造の確認",
+                    "ページ構成の整理",
+                    "情報配置の見直し"
+                ],
+                "priority": "medium",
+                "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                "required_check": [],
+                "sass_connection": "SASS導入前改善"
+            },
+            {
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "scope": "SASS導入前改善",
+                "tasks": [
+                    "見出し構造の確認",
+                    "ページ構成の整理",
+                    "情報配置の見直し"
+                ],
+                "priority": "medium",
+                "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                "required_check": [],
+                "sass_connection": "SASS導入前改善"
+            },
+            {
+                "phase_id": "phase_004",
+                "phase_name": "導入前改善",
+                "scope": "SASS導入前改善",
+                "tasks": [
+                    "見出し構造の確認",
+                    "ページ構成の整理",
+                    "情報配置の見直し"
+                ],
+                "priority": "medium",
+                "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                "required_check": [],
+                "sass_connection": "SASS導入前改善"
+            }
+        ],
+        "tasks": [
+            {
+                "task_id": "task_001",
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "task_name": "DEPTH improvement proposalの実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ],
+                "order": 1
+            },
+            {
+                "task_id": "task_002",
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "task_name": "VOLUME improvement proposalの実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ],
+                "order": 2
+            },
+            {
+                "task_id": "task_003",
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "task_name": "RELATIONSHIP improvement proposalの実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ],
+                "order": 3
+            },
+            {
+                "task_id": "task_004",
+                "phase_id": "phase_001",
+                "phase_name": "導入前改善",
+                "task_name": "FLOW improvement proposalの実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ],
+                "order": 4
+            },
+            {
+                "task_id": "task_005",
+                "phase_id": "phase_002",
+                "phase_name": "導入前改善",
+                "task_name": "見出し構造の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 1
+            },
+            {
+                "task_id": "task_006",
+                "phase_id": "phase_002",
+                "phase_name": "導入前改善",
+                "task_name": "ページ構成の整理",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 2
+            },
+            {
+                "task_id": "task_007",
+                "phase_id": "phase_002",
+                "phase_name": "導入前改善",
+                "task_name": "情報配置の見直し",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 3
+            },
+            {
+                "task_id": "task_008",
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "task_name": "見出し構造の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 1
+            },
+            {
+                "task_id": "task_009",
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "task_name": "ページ構成の整理",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 2
+            },
+            {
+                "task_id": "task_010",
+                "phase_id": "phase_003",
+                "phase_name": "導入前改善",
+                "task_name": "情報配置の見直し",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 3
+            },
+            {
+                "task_id": "task_011",
+                "phase_id": "phase_004",
+                "phase_name": "導入前改善",
+                "task_name": "見出し構造の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 1
+            },
+            {
+                "task_id": "task_012",
+                "phase_id": "phase_004",
+                "phase_name": "導入前改善",
+                "task_name": "ページ構成の整理",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 2
+            },
+            {
+                "task_id": "task_013",
+                "phase_id": "phase_004",
+                "phase_name": "導入前改善",
+                "task_name": "情報配置の見直し",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [],
+                "order": 3
+            }
+        ],
+        "priority": [
+            {
+                "rank": 1,
+                "indicator_id": "unknown_1",
+                "indicator_name": "",
+                "category": "volume"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "unknown_2",
+                "indicator_name": "",
+                "category": "relationship"
+            },
+            {
+                "rank": 3,
+                "indicator_id": "unknown_3",
+                "indicator_name": "",
+                "category": "flow"
+            },
+            {
+                "rank": 4,
+                "indicator_id": "unknown_4",
+                "indicator_name": "",
+                "category": "depth"
+            },
+            {
+                "rank": 5,
+                "indicator_id": "unknown_5",
+                "indicator_name": "",
+                "category": "volume"
+            },
+            {
+                "rank": 6,
+                "indicator_id": "unknown_6",
+                "indicator_name": "",
+                "category": "volume"
+            },
+            {
+                "rank": 7,
+                "indicator_id": "unknown_7",
+                "indicator_name": "",
+                "category": "relationship"
+            },
+            {
+                "rank": 8,
+                "indicator_id": "unknown_8",
+                "indicator_name": "",
+                "category": "relationship"
+            },
+            {
+                "rank": 9,
+                "indicator_id": "unknown_9",
+                "indicator_name": "",
+                "category": "relationship"
+            },
+            {
+                "rank": 10,
+                "indicator_id": "unknown_10",
+                "indicator_name": "",
+                "category": "flow"
+            },
+            {
+                "rank": 11,
+                "indicator_id": "unknown_11",
+                "indicator_name": "",
+                "category": "flow"
+            }
+        ],
+        "expected_effects": [
+            "SASS導入前の確認と改善準備が進めやすくなります。",
+            "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+            "情報量が増え、サービス内容や判断材料が伝わりやすくなります。",
+            "ページ同士の接続が整理され、サイト全体の理解が深まりやすくなります。",
+            "訪問者が次の行動へ進みやすくなり、問い合わせや予約につながりやすくなります。"
+        ],
+        "required_check": [
+            "対象ページ数",
+            "ページ構成",
+            "見出し数",
+            "既存テンプレート",
+            "修正範囲",
+            "追加文章量",
+            "原稿作成有無",
+            "画像点数",
+            "動画有無",
+            "事例数",
+            "更新頻度",
+            "内部リンク本数",
+            "関連ページ数",
+            "重複箇所",
+            "外部リンク有無",
+            "SNS接続有無",
+            "CTA数",
+            "フォーム有無",
+            "予約導線有無",
+            "購入導線有無",
+            "画像容量",
+            "サーバー環境",
+            "表示速度改善範囲"
+        ],
+        "sass_connection": [
+            "SASS導入前改善"
+        ],
+        "summary_data": {
+            "phase_count": 4,
+            "task_count": 13,
+            "high_priority_task_count": 4,
+            "sass_connected_task_count": 13,
+            "first_task": "DEPTH improvement proposalの実施範囲確認"
+        }
+    },
+    "sass_scope_candidate": {
+        "summary": "SADS診断結果とSAIS提案内容をもとに、SASS導入候補範囲を整理します。",
+        "candidates": [
+            {
+                "scope_name": "Web structure enhancement",
+                "source_recommendation": "unknown_1",
+                "priority": 1,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "Web structure enhancementをSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "Content quality enhancement",
+                "source_recommendation": "unknown_2",
+                "priority": 2,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "Content quality enhancementをSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "Internal flow enhancement",
+                "source_recommendation": "unknown_3",
+                "priority": 3,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "Internal flow enhancementをSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "SASS introduction preparation",
+                "source_recommendation": "unknown_4",
+                "priority": 4,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS introduction preparationをSASS導入候補範囲として整理します。"
+            }
+        ],
+        "recommended_modules": [
+            "Structure Module",
+            "Page Architecture Module"
+        ],
+        "operation_candidates": [
+            "ページ構造の定期確認",
+            "見出し構成の運用改善"
+        ],
+        "implementation_notes": [
+            "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+            "Web structure enhancementの対象範囲を確認します。",
+            "Content quality enhancementの対象範囲を確認します。",
+            "Internal flow enhancementの対象範囲を確認します。",
+            "SASS introduction preparationの対象範囲を確認します。",
+            "DEPTH improvement proposalの見積条件を確認します。",
+            "VOLUME improvement proposalの見積条件を確認します。",
+            "RELATIONSHIP improvement proposalの見積条件を確認します。",
+            "FLOW improvement proposalの見積条件を確認します。"
+        ]
+    },
+    "additional_check_items": [
+        {
+            "id": "check_cta",
+            "title": "CTA and conversion path check",
+            "reason": "Confirm whether the site has a clear inquiry or consultation route."
+        },
+        {
+            "id": "check_content_depth",
+            "title": "Content depth check",
+            "reason": "Confirm whether service explanation is enough for proposal generation."
+        }
+    ],
+    "proposal_data": {
+        "cover": {
+            "title": "情報量と情報接続を組み合わせた導入提案",
+            "target_name": "life-escortist.com",
+            "target_url": "https://life-escortist.com",
+            "system": "SAIS",
+            "project": "SEEN",
+            "document_type": "Introduction Proposal"
+        },
+        "executive_summary": "診断結果をもとに、優先的に改善すべき項目を整理しました。まずは改善対象と導入範囲を確認する提案です。 現時点で大きな追加確認項目はありません。",
+        "diagnosis_summary": {
+            "diagnosis_connection": "SADS診断で確認された改善優先項目をもとに、導入提案を整理します。",
+            "priority_reason": "コンテンツの優先度が高いため、提案の中心として扱います。",
+            "confidence_note": "一部確認を行うことで、より安全に提案へ進めます。"
+        },
+        "proposal_overview": {
+            "title": "情報量と情報接続を組み合わせた導入提案",
+            "summary": "コンテンツを中心に、導入提案を整理します。",
+            "scope_summary": "今回の提案では、Web structure enhancement、Content quality enhancement、Internal flow enhancement、SASS introduction preparationを中心範囲とします。",
+            "additional_check_note": "現時点で大きな追加確認項目はありません。"
+        },
+        "priority_improvement_items": [
+            {
+                "rank": 1,
+                "indicator_id": "unknown_1",
+                "title": "DEPTH improvement proposal",
+                "category": "depth",
+                "action": "DEPTH improvement proposalを確認し、必要な改善対応を行います。",
+                "expected_effect": "情報構造が整理され、訪問者とAIの双方が内容を把握しやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            },
+            {
+                "rank": 2,
+                "indicator_id": "unknown_2",
+                "title": "VOLUME improvement proposal",
+                "category": "volume",
+                "action": "VOLUME improvement proposalを確認し、必要な改善対応を行います。",
+                "expected_effect": "情報量が増え、サービス内容や判断材料が伝わりやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            },
+            {
+                "rank": 3,
+                "indicator_id": "unknown_3",
+                "title": "RELATIONSHIP improvement proposal",
+                "category": "relationship",
+                "action": "RELATIONSHIP improvement proposalを確認し、必要な改善対応を行います。",
+                "expected_effect": "ページ同士の接続が整理され、サイト全体の理解が深まりやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            },
+            {
+                "rank": 4,
+                "indicator_id": "unknown_4",
+                "title": "FLOW improvement proposal",
+                "category": "flow",
+                "action": "FLOW improvement proposalを確認し、必要な改善対応を行います。",
+                "expected_effect": "訪問者が次の行動へ進みやすくなり、問い合わせや予約につながりやすくなります。",
+                "impact": "medium",
+                "difficulty": "medium"
+            }
+        ],
+        "recommended_actions": [
+            {
+                "priority_rank": 1,
+                "indicator_id": "unknown_1",
+                "category": "depth",
+                "title": "DEPTH improvement proposal",
+                "action": "DEPTH improvement proposalを確認し、必要な改善対応を行います。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": ""
+            },
+            {
+                "priority_rank": 2,
+                "indicator_id": "unknown_2",
+                "category": "volume",
+                "title": "VOLUME improvement proposal",
+                "action": "VOLUME improvement proposalを確認し、必要な改善対応を行います。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": ""
+            },
+            {
+                "priority_rank": 3,
+                "indicator_id": "unknown_3",
+                "category": "relationship",
+                "title": "RELATIONSHIP improvement proposal",
+                "action": "RELATIONSHIP improvement proposalを確認し、必要な改善対応を行います。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": ""
+            },
+            {
+                "priority_rank": 4,
+                "indicator_id": "unknown_4",
+                "category": "flow",
+                "title": "FLOW improvement proposal",
+                "action": "FLOW improvement proposalを確認し、必要な改善対応を行います。",
+                "impact": "medium",
+                "difficulty": "medium",
+                "recommended_service_scope": ""
+            }
+        ],
+        "estimate_section": {
+            "summary": "今回の見積項目は、SADS診断で確認された優先改善項目をもとに整理しています。 見積項目は4件です。",
+            "items": [
+                {
+                    "item_id": "estimate_item_001",
+                    "source_indicator_id": "unknown_1",
+                    "category": "depth",
+                    "title": "DEPTH improvement proposal",
+                    "work_item": "DEPTH improvement proposalに関する改善作業",
+                    "scope": "Web structure enhancement",
+                    "priority_rank": 1,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "expected_effect": "",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲"
+                    ],
+                    "pricing_status": {
+                        "key": "scope_needs_confirmation",
+                        "label": "範囲確認後に金額設定",
+                        "needs_human_confirmation": true
+                    }
+                },
+                {
+                    "item_id": "estimate_item_002",
+                    "source_indicator_id": "unknown_2",
+                    "category": "volume",
+                    "title": "VOLUME improvement proposal",
+                    "work_item": "VOLUME improvement proposalに関する改善作業",
+                    "scope": "Web structure enhancement",
+                    "priority_rank": 2,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "expected_effect": "",
+                    "required_check": [
+                        "追加文章量",
+                        "原稿作成有無",
+                        "画像点数",
+                        "動画有無",
+                        "事例数",
+                        "更新頻度"
+                    ],
+                    "pricing_status": {
+                        "key": "scope_needs_confirmation",
+                        "label": "範囲確認後に金額設定",
+                        "needs_human_confirmation": true
+                    }
+                },
+                {
+                    "item_id": "estimate_item_003",
+                    "source_indicator_id": "unknown_3",
+                    "category": "relationship",
+                    "title": "RELATIONSHIP improvement proposal",
+                    "work_item": "RELATIONSHIP improvement proposalに関する改善作業",
+                    "scope": "Web structure enhancement",
+                    "priority_rank": 3,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "expected_effect": "",
+                    "required_check": [
+                        "対象ページ数",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無"
+                    ],
+                    "pricing_status": {
+                        "key": "scope_needs_confirmation",
+                        "label": "範囲確認後に金額設定",
+                        "needs_human_confirmation": true
+                    }
+                },
+                {
+                    "item_id": "estimate_item_004",
+                    "source_indicator_id": "unknown_4",
+                    "category": "flow",
+                    "title": "FLOW improvement proposal",
+                    "work_item": "FLOW improvement proposalに関する改善作業",
+                    "scope": "Web structure enhancement",
+                    "priority_rank": 4,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "expected_effect": "",
+                    "required_check": [
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲"
+                    ],
+                    "pricing_status": {
+                        "key": "scope_needs_confirmation",
+                        "label": "範囲確認後に金額設定",
+                        "needs_human_confirmation": true
+                    }
+                }
+            ],
+            "scope": [
+                {
+                    "scope_id": "estimate_scope_001",
+                    "scope_name": "Web structure enhancement",
+                    "pricing_status": "scope_needs_confirmation"
+                },
+                {
+                    "scope_id": "estimate_scope_002",
+                    "scope_name": "Content quality enhancement",
+                    "pricing_status": "scope_needs_confirmation"
+                },
+                {
+                    "scope_id": "estimate_scope_003",
+                    "scope_name": "Internal flow enhancement",
+                    "pricing_status": "scope_needs_confirmation"
+                },
+                {
+                    "scope_id": "estimate_scope_004",
+                    "scope_name": "SASS introduction preparation",
+                    "pricing_status": "scope_needs_confirmation"
+                }
+            ],
+            "required_check": [
+                "対象ページ数",
+                "ページ構成",
+                "見出し数",
+                "既存テンプレート",
+                "修正範囲",
+                "追加文章量",
+                "原稿作成有無",
+                "画像点数",
+                "動画有無",
+                "事例数",
+                "更新頻度",
+                "内部リンク本数",
+                "関連ページ数",
+                "重複箇所",
+                "外部リンク有無",
+                "SNS接続有無",
+                "CTA数",
+                "フォーム有無",
+                "予約導線有無",
+                "購入導線有無",
+                "画像容量",
+                "サーバー環境",
+                "表示速度改善範囲"
+            ],
+            "pricing_note": "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。"
+        },
+        "introduction_plan_section": {
+            "summary": "SADS診断結果をもとに、優先改善項目から段階的に導入計画を整理します。 提案テーマは「情報量と情報接続を組み合わせた導入提案」です。導入フェーズは4件、タスクは13件です。",
+            "phases": [
+                {
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "scope": "SASS導入前改善",
+                    "tasks": [
+                        "DEPTH improvement proposalの実施範囲確認",
+                        "VOLUME improvement proposalの実施範囲確認",
+                        "RELATIONSHIP improvement proposalの実施範囲確認",
+                        "FLOW improvement proposalの実施範囲確認"
+                    ],
+                    "priority": "high",
+                    "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "追加文章量",
+                        "原稿作成有無",
+                        "画像点数",
+                        "動画有無",
+                        "事例数",
+                        "更新頻度",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲"
+                    ],
+                    "sass_connection": "SASS導入前改善"
+                },
+                {
+                    "phase_id": "phase_002",
+                    "phase_name": "導入前改善",
+                    "scope": "SASS導入前改善",
+                    "tasks": [
+                        "見出し構造の確認",
+                        "ページ構成の整理",
+                        "情報配置の見直し"
+                    ],
+                    "priority": "medium",
+                    "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                    "required_check": [],
+                    "sass_connection": "SASS導入前改善"
+                },
+                {
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "scope": "SASS導入前改善",
+                    "tasks": [
+                        "見出し構造の確認",
+                        "ページ構成の整理",
+                        "情報配置の見直し"
+                    ],
+                    "priority": "medium",
+                    "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                    "required_check": [],
+                    "sass_connection": "SASS導入前改善"
+                },
+                {
+                    "phase_id": "phase_004",
+                    "phase_name": "導入前改善",
+                    "scope": "SASS導入前改善",
+                    "tasks": [
+                        "見出し構造の確認",
+                        "ページ構成の整理",
+                        "情報配置の見直し"
+                    ],
+                    "priority": "medium",
+                    "expected_effect": "SASS導入前の確認と改善準備が進めやすくなります。",
+                    "required_check": [],
+                    "sass_connection": "SASS導入前改善"
+                }
+            ],
+            "tasks": [
+                {
+                    "task_id": "task_001",
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "task_name": "DEPTH improvement proposalの実施範囲確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "追加文章量",
+                        "原稿作成有無",
+                        "画像点数",
+                        "動画有無",
+                        "事例数",
+                        "更新頻度",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲"
+                    ],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_002",
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "task_name": "VOLUME improvement proposalの実施範囲確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "追加文章量",
+                        "原稿作成有無",
+                        "画像点数",
+                        "動画有無",
+                        "事例数",
+                        "更新頻度",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲"
+                    ],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_003",
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "task_name": "RELATIONSHIP improvement proposalの実施範囲確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "追加文章量",
+                        "原稿作成有無",
+                        "画像点数",
+                        "動画有無",
+                        "事例数",
+                        "更新頻度",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲"
+                    ],
+                    "order": 3
+                },
+                {
+                    "task_id": "task_004",
+                    "phase_id": "phase_001",
+                    "phase_name": "導入前改善",
+                    "task_name": "FLOW improvement proposalの実施範囲確認",
+                    "priority": "high",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [
+                        "対象ページ数",
+                        "ページ構成",
+                        "見出し数",
+                        "既存テンプレート",
+                        "修正範囲",
+                        "追加文章量",
+                        "原稿作成有無",
+                        "画像点数",
+                        "動画有無",
+                        "事例数",
+                        "更新頻度",
+                        "内部リンク本数",
+                        "関連ページ数",
+                        "重複箇所",
+                        "外部リンク有無",
+                        "SNS接続有無",
+                        "CTA数",
+                        "フォーム有無",
+                        "予約導線有無",
+                        "購入導線有無",
+                        "画像容量",
+                        "サーバー環境",
+                        "表示速度改善範囲"
+                    ],
+                    "order": 4
+                },
+                {
+                    "task_id": "task_005",
+                    "phase_id": "phase_002",
+                    "phase_name": "導入前改善",
+                    "task_name": "見出し構造の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_006",
+                    "phase_id": "phase_002",
+                    "phase_name": "導入前改善",
+                    "task_name": "ページ構成の整理",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_007",
+                    "phase_id": "phase_002",
+                    "phase_name": "導入前改善",
+                    "task_name": "情報配置の見直し",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 3
+                },
+                {
+                    "task_id": "task_008",
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "task_name": "見出し構造の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_009",
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "task_name": "ページ構成の整理",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_010",
+                    "phase_id": "phase_003",
+                    "phase_name": "導入前改善",
+                    "task_name": "情報配置の見直し",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 3
+                },
+                {
+                    "task_id": "task_011",
+                    "phase_id": "phase_004",
+                    "phase_name": "導入前改善",
+                    "task_name": "見出し構造の確認",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 1
+                },
+                {
+                    "task_id": "task_012",
+                    "phase_id": "phase_004",
+                    "phase_name": "導入前改善",
+                    "task_name": "ページ構成の整理",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 2
+                },
+                {
+                    "task_id": "task_013",
+                    "phase_id": "phase_004",
+                    "phase_name": "導入前改善",
+                    "task_name": "情報配置の見直し",
+                    "priority": "medium",
+                    "sass_connection": "SASS導入前改善",
+                    "required_check": [],
+                    "order": 3
+                }
+            ],
+            "sass_connection": [
+                "SASS導入前改善"
+            ]
+        },
+        "sass_scope_section": {
+            "summary": "SADS診断結果とSAIS提案内容をもとに、SASS導入候補範囲を整理します。",
+            "candidates": [
+                {
+                    "scope_name": "Web structure enhancement",
+                    "source_recommendation": "unknown_1",
+                    "priority": 1,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "pre_improvement",
+                    "note": "Web structure enhancementをSASS導入候補範囲として整理します。"
+                },
+                {
+                    "scope_name": "Content quality enhancement",
+                    "source_recommendation": "unknown_2",
+                    "priority": 2,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "pre_improvement",
+                    "note": "Content quality enhancementをSASS導入候補範囲として整理します。"
+                },
+                {
+                    "scope_name": "Internal flow enhancement",
+                    "source_recommendation": "unknown_3",
+                    "priority": 3,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "pre_improvement",
+                    "note": "Internal flow enhancementをSASS導入候補範囲として整理します。"
+                },
+                {
+                    "scope_name": "SASS introduction preparation",
+                    "source_recommendation": "unknown_4",
+                    "priority": 4,
+                    "impact": "medium",
+                    "difficulty": "medium",
+                    "sass_connection_type": "pre_improvement",
+                    "note": "SASS introduction preparationをSASS導入候補範囲として整理します。"
+                }
+            ],
+            "recommended_modules": [
+                "Structure Module",
+                "Page Architecture Module"
+            ],
+            "operation_candidates": [
+                "ページ構造の定期確認",
+                "見出し構成の運用改善"
+            ],
+            "implementation_notes": [
+                "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+                "Web structure enhancementの対象範囲を確認します。",
+                "Content quality enhancementの対象範囲を確認します。",
+                "Internal flow enhancementの対象範囲を確認します。",
+                "SASS introduction preparationの対象範囲を確認します。",
+                "DEPTH improvement proposalの見積条件を確認します。",
+                "VOLUME improvement proposalの見積条件を確認します。",
+                "RELATIONSHIP improvement proposalの見積条件を確認します。",
+                "FLOW improvement proposalの見積条件を確認します。"
+            ]
+        },
+        "additional_check_section": {
+            "has_additional_check": true,
+            "items": [
+                {
+                    "id": "check_cta",
+                    "title": "CTA and conversion path check",
+                    "reason": "Confirm whether the site has a clear inquiry or consultation route."
+                },
+                {
+                    "id": "check_content_depth",
+                    "title": "Content depth check",
+                    "reason": "Confirm whether service explanation is enough for proposal generation."
+                }
+            ]
+        },
+        "sass_connection_section": {
+            "section_label": "SASS接続セクション",
+            "section_status": "SASS接続準備済み",
+            "target_system": "SASS",
+            "source_system": "SAIS",
+            "business_summary": "SASSへ渡す追加確認項目23件、導入候補モジュール2件、月次運用候補2件をもとに、SAIS提案をSASS導入・顧問運用へ接続します。",
+            "proposal_connection": "SAIS提案内容をSASS導入前改善、導入候補モジュール、月次運用候補へ接続します。",
+            "estimate_connection": "SASSへ渡す追加確認項目をもとに、見積前確認・導入範囲確認・顧客ヒアリングへ接続します。",
+            "advisory_connection": "SASS導入後は、月次確認・改善提案・追加提案・顧問運用へ接続できます。",
+            "sass_growth_loop_connection": "SASS Growth Loopへ接続し、顧客サイト運用、Studio-crs運用、SASSモジュール拡張、100OS展開へ接続します。",
+            "bridge_counts": {
+                "priority_task_count": 7,
+                "recommended_module_count": 2,
+                "operation_candidate_count": 2,
+                "additional_check_count": 23
+            },
+            "sais_visible_counts": {
+                "additional_check_items_count": 2,
+                "scope_recommended_module_count": 2,
+                "scope_operation_candidate_count": 2
+            },
+            "next_step_label": "SASS導入前確認へ進む",
+            "next_step_message": "追加確認項目、導入候補モジュール、月次運用候補を確認し、SASS導入提案・見積・顧問運用へ接続します。"
+        },
+        "next_action": "改善対象と導入範囲を確認し、見積内容の確認へ進みます。"
+    },
+    "sass_reverse_summary": {
+        "summary_label": "SASS接続要約",
+        "summary_status": "SASS接続準備済み",
+        "target_system": "SASS",
+        "source_system": "SAIS",
+        "proposal_connection": "SAIS提案内容をSASS導入前改善、導入候補モジュール、月次運用候補へ接続します。",
+        "estimate_connection": "SASSへ渡す追加確認項目をもとに、見積前確認・導入範囲確認・顧客ヒアリングへ接続します。",
+        "advisory_connection": "SASS導入後は、月次確認・改善提案・追加提案・顧問運用へ接続できます。",
+        "sass_growth_loop_connection": "SASS Growth Loopへ接続し、顧客サイト運用、Studio-crs運用、SASSモジュール拡張、100OS展開へ接続します。",
+        "bridge_counts": {
+            "priority_task_count": 7,
+            "recommended_module_count": 2,
+            "operation_candidate_count": 2,
+            "additional_check_count": 23
+        },
+        "sais_visible_counts": {
+            "additional_check_items_count": 2,
+            "scope_recommended_module_count": 2,
+            "scope_operation_candidate_count": 2
+        },
+        "business_summary": "SASSへ渡す追加確認項目23件、導入候補モジュール2件、月次運用候補2件をもとに、SAIS提案をSASS導入・顧問運用へ接続します。",
+        "next_step_label": "SASS導入前確認へ進む",
+        "next_step_message": "追加確認項目、導入候補モジュール、月次運用候補を確認し、SASS導入提案・見積・顧問運用へ接続します。"
+    },
+    "sass_bridge": {
+        "system": "SAIS",
+        "target_system": "SASS",
+        "project": "SEEN",
+        "target": {
+            "url": "https://life-escortist.com",
+            "domain": "life-escortist.com",
+            "checked_at": "2026-07-23T07:24:57+00:00"
+        },
+        "sass_scope_candidate": [
+            {
+                "scope_name": "Web structure enhancement",
+                "priority": 1,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "Web structure enhancementをSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "Content quality enhancement",
+                "priority": 2,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "Content quality enhancementをSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "Internal flow enhancement",
+                "priority": 3,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "Internal flow enhancementをSASS導入候補範囲として整理します。"
+            },
+            {
+                "scope_name": "SASS introduction preparation",
+                "priority": 4,
+                "impact": "medium",
+                "difficulty": "medium",
+                "sass_connection_type": "pre_improvement",
+                "note": "SASS introduction preparationをSASS導入候補範囲として整理します。"
+            }
+        ],
+        "priority_tasks": [
+            {
+                "task_id": "task_001",
+                "phase_id": "phase_001",
+                "task_name": "DEPTH improvement proposalの実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ]
+            },
+            {
+                "task_id": "task_002",
+                "phase_id": "phase_001",
+                "task_name": "VOLUME improvement proposalの実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ]
+            },
+            {
+                "task_id": "task_003",
+                "phase_id": "phase_001",
+                "task_name": "RELATIONSHIP improvement proposalの実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ]
+            },
+            {
+                "task_id": "task_004",
+                "phase_id": "phase_001",
+                "task_name": "FLOW improvement proposalの実施範囲確認",
+                "priority": "high",
+                "sass_connection": "SASS導入前改善",
+                "required_check": [
+                    "対象ページ数",
+                    "ページ構成",
+                    "見出し数",
+                    "既存テンプレート",
+                    "修正範囲",
+                    "追加文章量",
+                    "原稿作成有無",
+                    "画像点数",
+                    "動画有無",
+                    "事例数",
+                    "更新頻度",
+                    "内部リンク本数",
+                    "関連ページ数",
+                    "重複箇所",
+                    "外部リンク有無",
+                    "SNS接続有無",
+                    "CTA数",
+                    "フォーム有無",
+                    "予約導線有無",
+                    "購入導線有無",
+                    "画像容量",
+                    "サーバー環境",
+                    "表示速度改善範囲"
+                ]
+            },
+            {
+                "task_id": "task_005",
+                "phase_id": "phase_002",
+                "task_name": "見出し構造の確認",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": []
+            },
+            {
+                "task_id": "task_006",
+                "phase_id": "phase_002",
+                "task_name": "ページ構成の整理",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": []
+            },
+            {
+                "task_id": "task_007",
+                "phase_id": "phase_002",
+                "task_name": "情報配置の見直し",
+                "priority": "medium",
+                "sass_connection": "SASS導入前改善",
+                "required_check": []
+            }
+        ],
+        "recommended_modules": [
+            "Structure Module",
+            "Page Architecture Module"
+        ],
+        "operation_candidates": [
+            "ページ構造の定期確認",
+            "見出し構成の運用改善"
+        ],
+        "implementation_notes": [
+            "SASS導入前に対象範囲、優先順位、運用条件を確認します。",
+            "Web structure enhancementの対象範囲を確認します。",
+            "Content quality enhancementの対象範囲を確認します。",
+            "Internal flow enhancementの対象範囲を確認します。",
+            "SASS introduction preparationの対象範囲を確認します。",
+            "DEPTH improvement proposalの見積条件を確認します。",
+            "VOLUME improvement proposalの見積条件を確認します。",
+            "RELATIONSHIP improvement proposalの見積条件を確認します。",
+            "FLOW improvement proposalの見積条件を確認します。",
+            "本見積項目は、SADS診断結果をもとにした見積素材です。正式な金額は、対象ページ数、作業範囲、素材有無、導入条件を確認したうえで確定します。"
+        ],
+        "additional_checks": [
+            {
+                "type": "estimate",
+                "message": "対象ページ数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "ページ構成",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "見出し数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "既存テンプレート",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "修正範囲",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "追加文章量",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "原稿作成有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "画像点数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "動画有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "事例数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "更新頻度",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "内部リンク本数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "関連ページ数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "重複箇所",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "外部リンク有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "SNS接続有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "CTA数",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "フォーム有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "予約導線有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "購入導線有無",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "画像容量",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "サーバー環境",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            },
+            {
+                "type": "estimate",
+                "message": "表示速度改善範囲",
+                "target": "estimate",
+                "impact": "estimate_needs_confirmation"
+            }
+        ],
+        "metadata": {
+            "generated_at": "2026-07-24T12:59:55+00:00",
+            "bridge_name": "SAIS to SASS Bridge",
+            "source_engine": "SAIS",
+            "target_engine": "SASS",
+            "scope_candidate_count": 4,
+            "priority_task_count": 7,
+            "recommended_module_count": 2,
+            "additional_check_count": 23
+        }
+    },
+    "warnings": [
+        {
+            "code": "ADDITIONAL_CHECK_REQUIRED",
+            "message": "Additional check items are required before proposal confirmation.",
+            "affected_items": [
+                "additional_check_items"
+            ],
+            "impact": "additional_check_required"
+        },
+        {
+            "code": "ESTIMATE_NEEDS_CONFIRMATION",
+            "message": "Estimate items require human confirmation before pricing.",
+            "affected_items": [
+                "estimate_items"
+            ],
+            "impact": "estimate_needs_confirmation"
+        },
+        {
+            "code": "SASS_SCOPE_NEEDS_CONFIRMATION",
+            "message": "SASS scope candidate requires confirmation before implementation.",
+            "affected_items": [
+                "sass_scope_candidate"
+            ],
+            "impact": "sass_scope_needs_confirmation"
+        }
+    ],
+    "metadata": {
+        "generated_at": "2026-07-24T12:59:55+00:00",
+        "engine": "SAIS",
+        "engine_version": "1.0",
+        "source_engine": "SADS",
+        "target_engine": "SASS",
+        "document_set": "SAIS Documents Ver.1.0"
+    },
+    "processing": {
+        "classification": {
+            "proposal_input_summary": {
+                "total": 4,
+                "category_count": 4,
+                "high_impact_count": 0,
+                "high_difficulty_count": 0
+            },
+            "category_summary": {
+                "category_count": 4,
+                "total_items": 4,
+                "main_category": "depth"
+            },
+            "impact_summary": {
+                "impact_count": 1,
+                "total_items": 4,
+                "main_impact": "medium",
+                "has_high_impact": false
+            },
+            "difficulty_summary": {
+                "difficulty_count": 1,
+                "total_items": 4,
+                "main_difficulty": "medium",
+                "has_high_difficulty": false
+            }
+        },
+        "priority_summary": {
+            "total": 11,
+            "top_count": 3,
+            "primary_indicator_id": "unknown_1",
+            "primary_category": "volume"
+        },
+        "scope_summary": {
+            "total": 4,
+            "has_sass_pre_improvement": false,
+            "has_sass_operation_improvement": false,
+            "has_structure_improvement": false,
+            "has_flow_improvement": false
+        },
+        "additional_check_summary": {
+            "total": 0,
+            "has_additional_check": false,
+            "confidence_display": 83.8,
+            "warning_count": 0
+        }
+    }
+}

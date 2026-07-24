@@ -67,13 +67,20 @@ final class OutputBuilder
             $additionalCheckItems = [];
         }
 
+        $sassReverseSummary = $this->buildSassReverseSummary(
+            $sassBridge,
+            $sassScopeCandidate,
+            $additionalCheckItems
+        );
+        
         $proposalData = $this->proposalDataBuilder->build(
             $target,
             $proposal,
             $estimate,
             $introductionPlan,
             $sassScopeCandidate,
-            $additionalCheckItems
+            $additionalCheckItems,
+            $sassReverseSummary
         );
 
         $conditionWarnings = $this->warningBuilder->buildFromConditions(
@@ -113,11 +120,7 @@ final class OutputBuilder
             'sass_scope_candidate' => $sassScopeCandidate,
             'additional_check_items' => $additionalCheckItems,
             'proposal_data' => $proposalData,
-            'sass_reverse_summary' => $this->buildSassReverseSummary(
-                $sassBridge,
-                $sassScopeCandidate,
-                $additionalCheckItems
-            ),
+            'sass_reverse_summary' => $sassReverseSummary,
             'sass_bridge' => $sassBridge,
             'warnings' => $mergedWarnings,
             'metadata' => $this->buildMetadata(),
