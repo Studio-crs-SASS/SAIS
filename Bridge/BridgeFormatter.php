@@ -31,15 +31,23 @@ final class BridgeFormatter
                 continue;
             }
 
+            $taskName = trim((string) ($task['task_name'] ?? ''));
+
+            if ($taskName === '') {
+                continue;
+            }
+
             $formatted[] = [
                 'task_id' => (string) ($task['task_id'] ?? ''),
                 'phase_id' => (string) ($task['phase_id'] ?? ''),
-                'task_name' => (string) ($task['task_name'] ?? ''),
+                'task_name' => $taskName,
                 'priority' => (string) ($task['priority'] ?? 'medium'),
                 'sass_connection' => (string) ($task['sass_connection'] ?? ''),
                 'required_check' => $this->normalizeStringList($task['required_check'] ?? []),
             ];
         }
+
+        $formatted = $this->uniquePriorityTasksByName($formatted);
 
         usort(
             $formatted,
@@ -179,6 +187,60 @@ final class BridgeFormatter
     }
 
     /**
+     * @param array<int, array<string, mixed>> $tasks
+     * @return array<int, array<string, mixed>>
+     */
+    private function uniquePriorityTasksByName(array $tasks): array
+    {
+        $unique = [];
+
+        foreach ($tasks as $task) {
+            $taskName = (string) ($task['task_name'] ?? '');
+
+            if ($taskName === '') {
+                continue;
+            }
+
+            if (!isset($unique[$taskName])) {
+                $unique[$taskName] = $task;
+                continue;
+            }
+
+            $existing = $unique[$taskName];
+
+            $existingPriority = (string) ($existing['priority'] ?? 'medium');
+            $currentPriority = (string) ($task['priority'] ?? 'medium');
+
+            if (self::priorityWeight($currentPriority) < self::priorityWeight($existingPriority)) {
+                $task['required_check'] = $this->mergeStringLists(
+                    $existing['required_check'] ?? [],
+                    $task['required_check'] ?? []
+                );
+
+                if ((string) ($task['sass_connection'] ?? '') === '') {
+                    $task['sass_connection'] = (string) ($existing['sass_connection'] ?? '');
+                }
+
+                $unique[$taskName] = $task;
+                continue;
+            }
+
+            $existing['required_check'] = $this->mergeStringLists(
+                $existing['required_check'] ?? [],
+                $task['required_check'] ?? []
+            );
+
+            if ((string) ($existing['sass_connection'] ?? '') === '' && (string) ($task['sass_connection'] ?? '') !== '') {
+                $existing['sass_connection'] = (string) $task['sass_connection'];
+            }
+
+            $unique[$taskName] = $existing;
+        }
+
+        return array_values($unique);
+    }
+
+    /**
      * @param mixed $items
      * @return array<int, string>
      */
@@ -194,6 +256,19 @@ final class BridgeFormatter
                 $items
             ),
             static fn (string $item): bool => $item !== ''
+        )));
+    }
+
+    /**
+     * @param mixed $first
+     * @param mixed $second
+     * @return array<int, string>
+     */
+    private function mergeStringLists(mixed $first, mixed $second): array
+    {
+        return array_values(array_unique(array_merge(
+            $this->normalizeStringList(is_array($first) ? $first : []),
+            $this->normalizeStringList(is_array($second) ? $second : [])
         )));
     }
 

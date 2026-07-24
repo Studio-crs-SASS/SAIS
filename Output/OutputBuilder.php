@@ -113,6 +113,11 @@ final class OutputBuilder
             'sass_scope_candidate' => $sassScopeCandidate,
             'additional_check_items' => $additionalCheckItems,
             'proposal_data' => $proposalData,
+            'sass_reverse_summary' => $this->buildSassReverseSummary(
+                $sassBridge,
+                $sassScopeCandidate,
+                $additionalCheckItems
+            ),
             'sass_bridge' => $sassBridge,
             'warnings' => $mergedWarnings,
             'metadata' => $this->buildMetadata(),
@@ -221,6 +226,88 @@ final class OutputBuilder
             $warnings,
             static fn (mixed $warning): bool => is_array($warning)
         ));
+    }
+
+    /**
+     * @param array<string, mixed> $sassBridge
+     * @param array<string, mixed> $sassScopeCandidate
+     * @param array<int, mixed> $additionalCheckItems
+     * @return array<string, mixed>
+     */
+    private function buildSassReverseSummary(
+        array $sassBridge,
+        array $sassScopeCandidate,
+        array $additionalCheckItems
+    ): array {
+        $bridgeAdditionalChecks = $this->extractListFromArray($sassBridge, 'additional_checks');
+        $bridgeRecommendedModules = $this->extractListFromArray($sassBridge, 'recommended_modules');
+        $bridgeOperationCandidates = $this->extractListFromArray($sassBridge, 'operation_candidates');
+        $bridgePriorityTasks = $this->extractListFromArray($sassBridge, 'priority_tasks');
+        $scopeRecommendedModules = $this->extractListFromArray($sassScopeCandidate, 'recommended_modules');
+        $scopeOperationCandidates = $this->extractListFromArray($sassScopeCandidate, 'operation_candidates');
+
+        $additionalCheckCount = count($bridgeAdditionalChecks);
+        $recommendedModuleCount = count($bridgeRecommendedModules);
+        $operationCandidateCount = count($bridgeOperationCandidates);
+        $priorityTaskCount = count($bridgePriorityTasks);
+
+        return [
+            'summary_label' => 'SASS接続要約',
+            'summary_status' => 'SASS接続準備済み',
+            'target_system' => (string) ($sassBridge['target_system'] ?? 'SASS'),
+            'source_system' => (string) ($sassBridge['system'] ?? 'SAIS'),
+            'proposal_connection' => 'SAIS提案内容をSASS導入前改善、導入候補モジュール、月次運用候補へ接続します。',
+            'estimate_connection' => 'SASSへ渡す追加確認項目をもとに、見積前確認・導入範囲確認・顧客ヒアリングへ接続します。',
+            'advisory_connection' => 'SASS導入後は、月次確認・改善提案・追加提案・顧問運用へ接続できます。',
+            'sass_growth_loop_connection' => 'SASS Growth Loopへ接続し、顧客サイト運用、Studio-crs運用、SASSモジュール拡張、100OS展開へ接続します。',
+            'bridge_counts' => [
+                'priority_task_count' => $priorityTaskCount,
+                'recommended_module_count' => $recommendedModuleCount,
+                'operation_candidate_count' => $operationCandidateCount,
+                'additional_check_count' => $additionalCheckCount,
+            ],
+            'sais_visible_counts' => [
+                'additional_check_items_count' => count($additionalCheckItems),
+                'scope_recommended_module_count' => count($scopeRecommendedModules),
+                'scope_operation_candidate_count' => count($scopeOperationCandidates),
+            ],
+            'business_summary' => $this->buildSassReverseBusinessSummary(
+                $additionalCheckCount,
+                $recommendedModuleCount,
+                $operationCandidateCount
+            ),
+            'next_step_label' => 'SASS導入前確認へ進む',
+            'next_step_message' => '追加確認項目、導入候補モジュール、月次運用候補を確認し、SASS導入提案・見積・顧問運用へ接続します。',
+        ];
+    }
+
+    /**
+     * @param array<string, mixed> $source
+     * @return array<int, mixed>
+     */
+    private function extractListFromArray(array $source, string $key): array
+    {
+        $value = $source[$key] ?? [];
+
+        if (!is_array($value)) {
+            return [];
+        }
+
+        return array_values($value);
+    }
+
+    private function buildSassReverseBusinessSummary(
+        int $additionalCheckCount,
+        int $recommendedModuleCount,
+        int $operationCandidateCount
+    ): string {
+        return 'SASSへ渡す追加確認項目'
+            . $additionalCheckCount
+            . '件、導入候補モジュール'
+            . $recommendedModuleCount
+            . '件、月次運用候補'
+            . $operationCandidateCount
+            . '件をもとに、SAIS提案をSASS導入・顧問運用へ接続します。';
     }
 
     private function getDefault(string $key, string $fallback): string
